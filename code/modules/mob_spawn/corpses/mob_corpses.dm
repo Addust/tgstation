@@ -20,6 +20,9 @@
 	id = /obj/item/card/id/advanced/chameleon
 	id_trim = /datum/id_trim/chameleon/operative
 
+/datum/outfit/syndicatesoldiercorpse/scarf
+	neck = /obj/item/clothing/neck/large_scarf/syndie
+
 /obj/effect/mob_spawn/corpse/human/syndicatecommando
 	name = "Syndicate Commando"
 	hairstyle = "Bald"
