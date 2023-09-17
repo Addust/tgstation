@@ -2,12 +2,8 @@
 "a" = (
 /turf/template_noop,
 /area/template_noop)
-"b" = (
-/obj/structure/girder/reinforced,
-/turf/template_noop,
-/area/template_noop)
 "c" = (
-/obj/structure/girder/reinforced,
+/obj/structure/girder,
 /turf/open/misc/asteroid/airless,
 /area/ruin/space/prison_shuttle)
 "d" = (
@@ -70,7 +66,7 @@
 /turf/open/floor/plating/airless,
 /area/ruin/space/prison_shuttle)
 "t" = (
-/obj/structure/girder/reinforced,
+/obj/structure/girder,
 /turf/open/floor/plating/airless,
 /area/ruin/space/prison_shuttle)
 "v" = (
@@ -221,7 +217,7 @@ F
 "}
 (2,1,1) = {"
 a
-b
+a
 E
 a
 c

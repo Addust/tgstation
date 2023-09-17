@@ -654,20 +654,12 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hellfactory)
-"dR" = (
-/obj/machinery/conveyor/auto{
-	id = "hellfactory_logistics_conveyors"
+"dp" = (
+/obj/machinery/button/door/directional/south{
+	id = "hellfactory_output_lockdown";
+	name = "Safety Shutters"
 	},
-/obj/structure/plasticflaps/opaque,
-/obj/machinery/door/poddoor/shutters{
-	id = "hellfactory_output_lockdown"
-	},
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hellfactory)
-"ga" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/directional/south,
-/turf/open/floor/iron,
+/turf/template_noop,
 /area/ruin/space/has_grav/hellfactory)
 "gu" = (
 /obj/machinery/door/puzzle/keycard/entry,
@@ -702,16 +694,23 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/hellfactory)
+"mu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood/fancy/red,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/hellfactoryoffice)
 "nd" = (
 /obj/structure/window/reinforced/spawner/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
-"nk" = (
+"ow" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/iron/grimy,
-/area/ruin/space/has_grav/hellfactoryoffice)
+/obj/machinery/light/directional/south,
+/turf/open/floor/iron,
+/area/ruin/space/has_grav/hellfactory)
 "oH" = (
 /obj/machinery/atmospherics/pipe/layer_manifold/visible{
 	dir = 4
@@ -722,6 +721,16 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mob_spawn/corpse/human/cargo_tech,
 /turf/open/floor/iron,
+/area/ruin/space/has_grav/hellfactory)
+"oL" = (
+/obj/machinery/conveyor/auto{
+	id = "hellfactory_logistics_conveyors"
+	},
+/obj/structure/plasticflaps/opaque,
+/obj/machinery/door/poddoor/shutters{
+	id = "hellfactory_output_lockdown"
+	},
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/hellfactory)
 "oV" = (
 /obj/machinery/door/puzzle/keycard/stockroom,
@@ -735,6 +744,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/hellfactory)
+"uG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/secure_closet/personal/cabinet,
+/obj/item/clothing/under/syndicate/sniper,
+/obj/item/clothing/shoes/laceup,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/hellfactoryoffice)
 "vB" = (
 /obj/structure/closet/crate/engineering/electrical,
 /obj/item/stack/sheet/mineral/plasma/thirty,
@@ -755,7 +771,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
-"ER" = (
+"Cu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/wood/fancy/red,
+/obj/item/rsf,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/hellfactoryoffice)
+"Ep" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/bed,
 /obj/item/bedsheet/patriot,
@@ -768,7 +791,15 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hellfactory)
-"GH" = (
+"GU" = (
+/obj/machinery/door/airlock/external/glass,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/space/has_grav/hellfactory)
+"Jy" = (
 /obj/machinery/conveyor_switch/oneway{
 	id = "hellfactory_logistics_conveyors"
 	},
@@ -781,14 +812,6 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hellfactory)
-"GU" = (
-/obj/machinery/door/airlock/external/glass,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 1
-	},
-/obj/structure/cable,
-/turf/open/floor/plating,
-/area/ruin/space/has_grav/hellfactory)
 "KZ" = (
 /obj/machinery/conveyor/auto{
 	id = "hellfactory_logistics_conveyors"
@@ -799,14 +822,7 @@
 	},
 /turf/open/floor/plating/airless,
 /area/ruin/space/has_grav/hellfactory)
-"LW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/table/wood/fancy/red,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/iron/grimy,
-/area/ruin/space/has_grav/hellfactoryoffice)
-"Mk" = (
+"LZ" = (
 /obj/structure/table/wood,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light_switch{
@@ -821,11 +837,14 @@
 	},
 /turf/open/floor/plating,
 /area/ruin/space/has_grav/hellfactory)
-"PJ" = (
+"Pk" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/table/wood/fancy/red,
-/obj/item/rsf,
-/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/hellfactoryoffice)
+"Pn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/sign/flag/ssc/directional/south,
 /turf/open/floor/iron/grimy,
 /area/ruin/space/has_grav/hellfactoryoffice)
 "QS" = (
@@ -848,20 +867,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
-"SO" = (
-/obj/machinery/button/door/directional/south{
-	id = "hellfactory_output_lockdown";
-	name = "Safety Shutters"
-	},
-/turf/template_noop,
-/area/ruin/space/has_grav/hellfactory)
-"Tj" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/secure_closet/personal/cabinet,
-/obj/item/clothing/under/syndicate/sniper,
-/obj/item/clothing/shoes/laceup,
-/turf/open/floor/iron/grimy,
-/area/ruin/space/has_grav/hellfactoryoffice)
 "UN" = (
 /obj/structure/transit_tube,
 /obj/structure/lattice/catwalk,
@@ -879,11 +884,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rust,
 /area/ruin/space/has_grav/hellfactory)
-"Vz" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/light/directional/north,
-/turf/open/floor/iron,
-/area/ruin/space/has_grav/hellfactory)
 "VN" = (
 /obj/machinery/door/airlock/grunge{
 	name = "Managerial Office"
@@ -895,6 +895,21 @@
 "Wh" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
+/area/ruin/space/has_grav/hellfactory)
+"XP" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/obj/item/gps/spaceruin{
+	pixel_x = 4;
+	pixel_y = 9
+	},
+/obj/structure/table/wood/fancy/red,
+/turf/open/floor/iron/grimy,
+/area/ruin/space/has_grav/hellfactoryoffice)
+"ZL" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/directional/north,
+/turf/open/floor/iron,
 /area/ruin/space/has_grav/hellfactory)
 
 (1,1,1) = {"
@@ -1081,11 +1096,11 @@ ai
 al
 aa
 ah
-Tj
-LW
+uG
+mu
 ar
-PJ
-ER
+Cu
+Ep
 ah
 aa
 bb
@@ -1152,7 +1167,7 @@ bl
 bt
 bs
 bB
-bB
+Pn
 ah
 aa
 bb
@@ -1215,8 +1230,8 @@ ai
 al
 aa
 ah
-bB
-nk
+Pk
+XP
 bt
 bB
 bB
@@ -1417,7 +1432,7 @@ aa
 aa
 aW
 bm
-Mk
+LZ
 aA
 bD
 bm
@@ -1726,7 +1741,7 @@ bL
 bL
 bL
 bL
-ga
+ow
 ac
 bL
 bV
@@ -1854,7 +1869,7 @@ cr
 cr
 cr
 ac
-Vz
+ZL
 bL
 bL
 bL
@@ -1885,7 +1900,7 @@ aa
 aa
 bf
 bL
-ga
+ow
 ac
 bL
 bL
@@ -1985,10 +2000,10 @@ cr
 cr
 cr
 cr
-SO
+dp
 ac
 ac
-GH
+Jy
 dm
 dm
 dm
@@ -2053,7 +2068,7 @@ cr
 cr
 cr
 cr
-dR
+oL
 aG
 aG
 aG
