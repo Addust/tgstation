@@ -517,7 +517,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/engine)
 "bK" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/public/glass{
@@ -607,7 +606,6 @@
 /area/shuttle/abandoned/engine)
 "bU" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/engine)
 "bV" = (
@@ -620,7 +618,6 @@
 /area/shuttle/abandoned/cargo)
 "bY" = (
 /obj/effect/spawner/structure/window/reinforced/shuttle,
-/obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/shuttle/abandoned/bar)
 "bZ" = (
@@ -1152,7 +1149,6 @@
 /turf/open/floor/iron/cafeteria,
 /area/shuttle/abandoned/bar)
 "dD" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/glass{
 	name = "Hydroponics"
@@ -1556,7 +1552,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/cargo)
 "oT" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/public/glass{
 	name = "Bar"
@@ -1664,7 +1659,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/cargo)
 "yy" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external/ruin,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -1685,7 +1679,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/bar)
 "Aq" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/glass{
 	name = "Crew Quarters"
@@ -1709,7 +1702,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/cargo)
 "AR" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/command{
 	name = "Bridge"
@@ -1741,7 +1733,6 @@
 /area/shuttle/abandoned/bar)
 "Dv" = (
 /obj/machinery/smartfridge,
-/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/shuttle/abandoned/bar)
 "Dw" = (
@@ -1978,7 +1969,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/engine)
 "Rs" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/external/ruin,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -2106,7 +2096,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/crew)
 "XR" = (
-/obj/machinery/door/firedoor,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/door/airlock/glass{
 	name = "Kitchen"

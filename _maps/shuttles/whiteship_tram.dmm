@@ -529,7 +529,6 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Atmospherics"
 	},
-/obj/machinery/door/firedoor/heavy,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 8
 	},
@@ -542,7 +541,6 @@
 	name = "Engine Room"
 	},
 /obj/structure/cable,
-/obj/machinery/door/firedoor/heavy,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 8
 	},
@@ -755,7 +753,6 @@
 /obj/machinery/door/airlock/hatch{
 	name = "Bridge"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 8
 	},
@@ -780,7 +777,6 @@
 /obj/effect/decal/cleanable/blood/tracks{
 	dir = 4
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 8
 	},

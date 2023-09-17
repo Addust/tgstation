@@ -132,7 +132,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Surgery"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
@@ -585,7 +584,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Surgery"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
@@ -633,7 +631,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Break Room"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -810,7 +807,6 @@
 /area/shuttle/abandoned/medbay)
 "bP" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
@@ -868,7 +864,6 @@
 /area/shuttle/abandoned/medbay)
 "bV" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/medical/glass{
 	name = "Cryo Room"
 	},
@@ -898,7 +893,6 @@
 /obj/machinery/door/airlock/command{
 	name = "Bridge"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
@@ -1111,7 +1105,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Recovery Room"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron/white,
@@ -1121,7 +1114,6 @@
 /obj/machinery/door/airlock/medical{
 	name = "Medical Storage"
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -1497,7 +1489,6 @@
 	name = "Recovery Room"
 	},
 /obj/effect/turf_decal/stripes/corner,
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},
@@ -1741,7 +1732,6 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 4
 	},

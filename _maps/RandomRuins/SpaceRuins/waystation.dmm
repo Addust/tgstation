@@ -495,7 +495,7 @@
 "jv" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/effect/mapping_helpers/damaged_window,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "jy" = (
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted,
@@ -1388,17 +1388,6 @@
 /obj/structure/broken_flooring/pile/directional/east,
 /turf/template_noop,
 /area/template_noop)
-"xk" = (
-/obj/machinery/porta_turret/syndicate/pod{
-	dir = 1;
-	max_integrity = 80
-	},
-/obj/machinery/porta_turret/syndicate/pod{
-	dir = 1;
-	max_integrity = 80
-	},
-/turf/closed/wall/mineral/plastitanium,
-/area/ruin/space/has_grav/powered/waystation/assaultpod)
 "xq" = (
 /obj/machinery/conveyor{
 	dir = 1;
@@ -2533,7 +2522,7 @@
 /obj/effect/mapping_helpers/damaged_window,
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/blood/splatter/over_window,
-/turf/open/floor/iron,
+/turf/open/floor/plating,
 /area/ruin/space/has_grav/waystation/cargooffice)
 "Ta" = (
 /obj/effect/turf_decal/delivery,
@@ -4714,7 +4703,7 @@ Qx
 SL
 jG
 my
-xk
+lM
 tb
 FM
 TW

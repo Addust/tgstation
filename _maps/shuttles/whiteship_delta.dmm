@@ -542,7 +542,6 @@
 /area/shuttle/abandoned/crew)
 "bp" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
 	name = "Crew Quarters"
 	},
@@ -550,7 +549,6 @@
 /area/shuttle/abandoned/crew)
 "bq" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/public/glass{
 	name = "Crew Quarters"
 	},
@@ -667,7 +665,6 @@
 	name = "Bridge"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
@@ -812,7 +809,6 @@
 /turf/open/floor/iron/dark,
 /area/shuttle/abandoned/bridge)
 "bT" = (
-/obj/machinery/door/firedoor,
 /obj/effect/spawner/structure/window/reinforced/shuttle,
 /obj/machinery/door/poddoor{
 	id = "whiteship_bridge"
@@ -1270,7 +1266,6 @@
 	name = "Medbay"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
 /turf/open/floor/iron,
 /area/shuttle/abandoned/medbay)
 "cT" = (
@@ -1278,7 +1273,6 @@
 	name = "Medbay"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron,
