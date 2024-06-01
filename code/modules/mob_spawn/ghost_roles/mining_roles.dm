@@ -293,7 +293,7 @@
 	prompt_name = "a syndicate comms agent"
 	you_are_text = "You are a syndicate comms agent, employed in a top secret research facility developing biological weapons."
 	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Monitor enemy activity as best you can, and try to keep a low profile. Use the communication equipment to provide support to any field agents, and sow disinformation to throw Nanotrasen off your trail. Do not let the base fall into enemy hands!"
-	important_text = "DO NOT abandon the base."
+	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands!"
 	outfit = /datum/outfit/lavaland_syndicate/comms
 
 /datum/outfit/lavaland_syndicate
@@ -323,3 +323,42 @@
 /obj/item/clothing/mask/chameleon/gps/Initialize(mapload)
 	. = ..()
 	AddComponent(/datum/component/gps, "Encrypted Signal")
+
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/engineer
+	name = "Syndicate Engineer"
+	prompt_name = "a syndicate engineer"
+	you_are_text = "You are a Syndicate engineer, employed in a top secret research facility developing biological and chemical weapons."
+	flavour_text = "Unfortunately, your hated enemy, Nanotrasen, has begun mining in this sector. Maintain and operate the base's equipment and try to keep a low profile."
+	important_text = "The base is rigged with explosives, DO NOT abandon it or let it fall into enemy hands!"
+	outfit = /datum/outfit/lavaland_syndicate/engineer
+
+/datum/outfit/lavaland_syndicate/engineer
+	name = "Lavaland Syndicate Engineer"
+	suit = /obj/item/clothing/suit/hazardvest/syndicate
+	head = /obj/item/clothing/head/utility/hardhat
+	belt = /obj/item/storage/belt/utility/syndicate
+	r_hand = /obj/item/gun/ballistic/rifle/boltaction //scientists get snipers, comms agents get swords, and engineers? they get a practical problem.
+	glasses = /obj/item/clothing/glasses/welding
+
+//wouldnt it be funny if i gave them the turret? no. it wouldnt be. a fucking fully-automatic sentry turret that you can deploy anywhere and everywhere to kill everything that moves? thats too much loot mate sorry
+
+/obj/item/clothing/suit/hazardvest/syndicate
+	name = "blood-red hazard vest"
+	desc = "You never knew a hazard vest could look so evil. It has some light armour compared to the civilian version and a different rig for holding equipment."
+	icon_state = "hazard_syndicate"
+	allowed = list(
+		/obj/item/fireaxe/metal_h2_axe,
+		/obj/item/flashlight,
+		/obj/item/radio,
+		/obj/item/storage/bag/construction,
+		/obj/item/tank/internals,
+		/obj/item/t_scanner,
+		/obj/item/gun/ballistic,
+	)
+	armor_type = /datum/armor/syndicate_hazard
+
+/datum/armor/syndicate_hazard
+	melee = 10
+	bullet = 15
+	fire = 45
+	energy = 15

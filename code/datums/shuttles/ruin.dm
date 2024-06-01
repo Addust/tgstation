@@ -26,3 +26,9 @@
 	suffix = "syndicate_fighter_shiv"
 	name = "Syndicate Fighter"
 	description = "A small Syndicate vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Syndicate mob in the pilot's seat, and extremely cramped."
+
+/datum/map_template/shuttle/ruin/syndicate_lavaland
+	suffix = "syndicate_lavaland"
+	name = "Syndicate Lavaland Cargo Ferry"
+	description = "If those comms agents keep fucking asking for supplies. Should shut them up a bit. Can be remotely recalled to Syndicate Lavaland by its crew, posesses some basic supplies, seating, and other whatnot. Good if you want to evacuate them to a gibbing chamber or whatever after a megafauna strike. Starts with basic emergency supplies for transport."
+	admin_notes = "They can't use it to fly to station or outside of the base, but may leap off in hyperspace. Can't custom navigate because syndicate ghostroles are VERY untrustworthy. Can't fly outside of the dock without admin intervention."

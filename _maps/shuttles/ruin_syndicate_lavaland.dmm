@@ -1,0 +1,292 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/shuttle/ruin/syndicate_lavaland)
+"b" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicate_lavaland)
+"d" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicate_lavaland)
+"f" = (
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"g" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicate_lavaland)
+"h" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"j" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external/glass/ruin,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/syndicate_lavaland)
+"k" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "lavalandsyndi_ferry_windows";
+	req_access = list("syndicate");
+	name = "Window Shutters"
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"l" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"n" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"o" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"p" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicate_lavaland)
+"q" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"r" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"s" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 1
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"u" = (
+/obj/machinery/door/poddoor/shutters{
+	id = "syndicate_freighter_cargo"
+	},
+/obj/structure/fans/tiny,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicate_lavaland)
+"x" = (
+/obj/structure/table/reinforced,
+/obj/item/paper{
+	default_raw_text = "This shuttle is ONLY for supply use. If I catch any of you using it to attack Nanotrasen, while you will be praised for enthusiasm, you will also be IMMEDIATELY fired and thrown into the moat. Do not fucking test me. Sincerely, Cybersun Command."
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"y" = (
+/obj/machinery/power/shuttle_engine/heater,
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicate_lavaland)
+"z" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor{
+	id = "lavalandsyndi_ferry_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicate_lavaland)
+"A" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"B" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 8
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"C" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"K" = (
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/syndicate_lavaland)
+"M" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"N" = (
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/closet/crate/cardboard,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/reagent_containers/cup/glass/waterbottle,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicate_lavaland)
+"P" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/external/glass/ruin,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/docking_port/mobile{
+	shuttle_id = "syndicate_lavaland";
+	dir = 4;
+	name = "Syndicate Ferry";
+	area_type = /area/shuttle/ruin/syndicate_lavaland
+	},
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/syndicate_lavaland)
+"Q" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/window/reinforced/plasma/spawner/directional/east,
+/turf/open/floor/plating,
+/area/shuttle/ruin/syndicate_lavaland)
+"S" = (
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicate_lavaland)
+"U" = (
+/obj/machinery/button/door/directional/south{
+	id = "syndicate_freighter_cargo";
+	name = "Cargo Shutters";
+	req_access = list("syndicate")
+	},
+/obj/effect/turf_decal/delivery/white,
+/obj/structure/closet/crate/internals,
+/obj/item/storage/toolbox/emergency,
+/obj/item/storage/toolbox/emergency,
+/obj/item/stack/sheet/iron/twenty,
+/obj/item/stack/sheet/glass{
+	amount = 10
+	},
+/obj/item/stock_parts/cell/high,
+/turf/open/floor/iron/dark/smooth_large,
+/area/shuttle/ruin/syndicate_lavaland)
+"V" = (
+/obj/machinery/computer/shuttle/syndicate_lavaland,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"W" = (
+/turf/template_noop,
+/area/template_noop)
+"Y" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+"Z" = (
+/obj/structure/chair/comfy/shuttle/tactical{
+	dir = 4
+	},
+/obj/machinery/light/directional/west,
+/turf/open/floor/mineral/plastitanium,
+/area/shuttle/ruin/syndicate_lavaland)
+
+(1,1,1) = {"
+W
+z
+z
+a
+a
+j
+a
+a
+a
+a
+y
+Q
+"}
+(2,1,1) = {"
+z
+z
+C
+A
+Z
+K
+h
+S
+p
+N
+S
+a
+"}
+(3,1,1) = {"
+z
+V
+s
+f
+f
+K
+q
+n
+n
+n
+o
+u
+"}
+(4,1,1) = {"
+z
+k
+f
+f
+f
+K
+r
+Y
+Y
+Y
+l
+u
+"}
+(5,1,1) = {"
+z
+z
+x
+M
+B
+K
+h
+N
+g
+S
+U
+a
+"}
+(6,1,1) = {"
+W
+z
+z
+a
+a
+P
+a
+a
+a
+a
+d
+b
+"}

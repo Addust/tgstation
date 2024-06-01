@@ -56,3 +56,25 @@
 		return
 	else
 		. = ..()
+
+/obj/machinery/computer/terminal/syndicate_lavaland
+	name = "syndicate cargo manifest terminal"
+	desc = "A terminal responsible for keeping manifest of the base's supplies."
+	icon_screen = "syndishuttle"
+	icon_keyboard = "syndie_key"
+	light_color = COLOR_SOFT_RED
+	tguitheme = "syndicate"
+	upperinfo = "CYBERSUN-INTERDYNE JOINT OUTPOST 88 CARGO MANIFEST - PROPERTY OF SYNDICATE COALITION"
+		content = list("STANDING BY FOR INPUT. SOMEONE FUCKED UP. REPORT THIS AS AN ISSUE. NO, SERIOUSLY. THIS SHOULDN'T HAPPEN. I FORGOR.")
+
+//This is a bad idea, so it's admin-intervention-only even to spawn, and it won't fly unless the admin basically goes "yea fuck it we ball"
+
+/obj/machinery/computer/shuttle/syndicate_lavaland
+	name = "syndicate ferry console"
+	desc = "A Syndicate ferry's flight terminal. Doesn't seem to be authorised to go anywhere."
+	icon_screen = "syndishuttle"
+	icon_keyboard = "syndie_key"
+	light_color = COLOR_SOFT_RED
+	req_access = list(ACCESS_SYNDICATE)
+	shuttleId = "syndicate_lavaland"
+	possible_destinations = "syndicate_lava_arrivals" //its an admin shenanigan. no more
