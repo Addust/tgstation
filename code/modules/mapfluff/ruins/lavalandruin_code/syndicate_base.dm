@@ -65,7 +65,7 @@
 	light_color = COLOR_SOFT_RED
 	tguitheme = "syndicate"
 	upperinfo = "CYBERSUN-INTERDYNE JOINT OUTPOST 88 CARGO MANIFEST - PROPERTY OF SYNDICATE COALITION"
-		content = list("STANDING BY FOR INPUT. SOMEONE FUCKED UP. REPORT THIS AS AN ISSUE. NO, SERIOUSLY. THIS SHOULDN'T HAPPEN. I FORGOR.")
+	content = list("STANDING BY FOR INPUT. SOMEONE FUCKED UP. REPORT THIS AS AN ISSUE. NO, SERIOUSLY. THIS SHOULDN'T HAPPEN. I FORGOR.")
 
 //This is a bad idea, so it's admin-intervention-only even to spawn, and it won't fly unless the admin basically goes "yea fuck it we ball"
 
