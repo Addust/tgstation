@@ -20,6 +20,10 @@
 /obj/machinery/light/directional/west,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/main)
+"aH" = (
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/syndicate_lava_base/medbay)
 "aM" = (
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron,
@@ -136,9 +140,8 @@
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/cargo)
 "cU" = (
-/obj/effect/baseturf_helper/lava_land/surface,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/syndicate_lava_base/main)
+/turf/open/floor/iron/grimy,
+/area/ruin/syndicate_lava_base/dormitories)
 "cW" = (
 /obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate{
 	dir = 8
@@ -219,7 +222,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/turf/open/floor/wood,
+/turf/open/floor/iron/grimy,
 /area/ruin/syndicate_lava_base/dormitories)
 "gb" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted{
@@ -232,6 +235,10 @@
 /obj/machinery/light/directional/south,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/main)
+"gv" = (
+/obj/structure/bookcase/random,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/dormitories)
 "gK" = (
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
@@ -305,6 +312,13 @@
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/syndicate_lava_base/arrivals)
+"iI" = (
+/obj/structure/table/wood,
+/obj/machinery/computer/libraryconsole/bookmanagement{
+	dir = 1
+	},
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/dormitories)
 "jI" = (
 /obj/machinery/autolathe/hacked,
 /turf/open/floor/iron/dark,
@@ -350,6 +364,9 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
 	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/dormitories)
 "mB" = (
@@ -391,6 +408,9 @@
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/cargo)
 "pt" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/dormitories)
 "qe" = (
@@ -481,6 +501,9 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/ruin/syndicate_lava_base/dormitories)
+"uB" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/syndicate_lava_base/medbay)
 "uK" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/turf_decal/stripes/line{
@@ -504,7 +527,7 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/cut_AI_wire,
 /obj/effect/mapping_helpers/apc/syndicate_access,
-/turf/open/floor/wood,
+/turf/open/floor/iron/grimy,
 /area/ruin/syndicate_lava_base/dormitories)
 "wr" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -535,6 +558,10 @@
 /obj/effect/mapping_helpers/apc/cut_AI_wire,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/cargo)
+"xJ" = (
+/obj/machinery/bookbinder,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/dormitories)
 "xT" = (
 /obj/effect/turf_decal/tile/brown/anticorner/contrasted,
 /obj/machinery/vending/toyliberationstation{
@@ -625,6 +652,9 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
+"Bw" = (
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/cargo)
 "Bx" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/turf_decal/stripes/line,
@@ -755,6 +785,10 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/arrivals)
+"Gm" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/dormitories)
 "Go" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/turf_decal/sand/plating/volcanic,
@@ -812,6 +846,12 @@
 	},
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/cargo)
+"Io" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/cargo)
 "Ix" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/bar)
@@ -853,6 +893,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/cargo)
+"KG" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/cargo)
 "Lj" = (
 /obj/effect/turf_decal/tile/brown/half/contrasted{
 	dir = 8
@@ -883,10 +927,8 @@
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/arrivals)
 "MK" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/wood,
-/area/ruin/syndicate_lava_base/dormitories)
+/turf/open/floor/iron/white,
+/area/ruin/syndicate_lava_base/medbay)
 "ML" = (
 /obj/effect/turf_decal/box/white/corners{
 	dir = 1
@@ -959,7 +1001,7 @@
 /area/ruin/syndicate_lava_base/cargo)
 "OK" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
-/turf/open/floor/wood,
+/turf/open/floor/iron/grimy,
 /area/ruin/syndicate_lava_base/dormitories)
 "OL" = (
 /obj/effect/mapping_helpers/no_lava,
@@ -968,6 +1010,9 @@
 /obj/effect/turf_decal/sand/plating/volcanic,
 /turf/open/floor/plating/lavaland_atmos,
 /area/lavaland/surface/outdoors)
+"Pc" = (
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/medbay)
 "Py" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/poddoor/shutters{
@@ -1036,12 +1081,27 @@
 "TB" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/main)
+"TE" = (
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/mining/glass{
+	name = "Cargo Lobby"
+	},
+/turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/cargo)
 "TK" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 4
 	},
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/syndicate_lava_base/arrivals)
+"Un" = (
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/syndicate_lava_base/medbay)
 "UU" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
 /turf/open/floor/plating,
@@ -1142,7 +1202,7 @@
 	name = "Warehouse Shutters"
 	},
 /turf/open/floor/iron,
-/area/ruin/syndicate_lava_base/main)
+/area/ruin/syndicate_lava_base/cargo)
 "Yj" = (
 /obj/structure/rack,
 /obj/effect/turf_decal/box/white/corners{
@@ -2149,9 +2209,9 @@ Ms
 hA
 MT
 EE
-TB
-TB
-cU
+Qs
+Qs
+Ve
 Ve
 wr
 bp
@@ -2199,9 +2259,9 @@ hx
 hA
 MT
 EE
-TB
-vT
-vT
+Qs
+Bw
+Bw
 BT
 XD
 YC
@@ -2249,9 +2309,9 @@ zw
 EG
 MT
 EE
-TB
-ff
-ff
+Qs
+Io
+Io
 Nl
 wr
 XD
@@ -2299,9 +2359,9 @@ lo
 lo
 lo
 TB
-TB
-ff
-vT
+Qs
+Io
+Bw
 BT
 XD
 gS
@@ -2349,8 +2409,8 @@ vT
 vT
 vT
 vT
-TB
-ff
+Qs
+Io
 XZ
 Qs
 bm
@@ -2399,9 +2459,9 @@ ff
 ff
 vT
 vT
-vT
-ff
-vT
+KG
+Io
+Bw
 Qs
 XD
 rz
@@ -2449,9 +2509,9 @@ ab
 ff
 ff
 ff
-ff
-ff
-ff
+TE
+Io
+Io
 MR
 wr
 hm
@@ -2499,9 +2559,9 @@ ab
 ab
 ff
 vT
-vT
-vT
-vT
+KG
+Bw
+Bw
 Qs
 Qs
 Qs
@@ -2549,16 +2609,16 @@ ab
 ab
 ff
 vT
-TB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+Qs
+Qs
+Qs
+Qs
+MK
+MK
+MK
+aH
+Un
+uB
 ab
 ab
 ab
@@ -2599,16 +2659,16 @@ ab
 ab
 ff
 vT
-TB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+uB
+MK
+MK
+MK
+MK
+MK
+MK
+Un
+Un
+uB
 ab
 ab
 ab
@@ -2649,16 +2709,16 @@ ab
 ab
 ff
 vT
-TB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+MK
+MK
+MK
+MK
+MK
+MK
+MK
+aH
+uB
+Pc
 ab
 ab
 ab
@@ -2699,15 +2759,15 @@ ab
 ab
 ff
 vT
-TB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+uB
+MK
+MK
+MK
+MK
+MK
+MK
+uB
+Pc
 ab
 ab
 ab
@@ -2749,14 +2809,14 @@ ab
 ab
 ff
 gr
-TB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+uB
+MK
+MK
+MK
+MK
+MK
+MK
+uB
 ab
 ab
 ab
@@ -2799,14 +2859,14 @@ ab
 ab
 ff
 vT
-TB
-ab
-ab
-ab
-ab
-ab
-ab
-ab
+uB
+uB
+uB
+uB
+uB
+uB
+uB
+uB
 ab
 ab
 ab
@@ -3142,10 +3202,10 @@ Xa
 kC
 QS
 DJ
-MK
+QS
 fI
 pt
-pt
+Gm
 PP
 ab
 ab
@@ -3192,10 +3252,10 @@ Xa
 cW
 am
 Xa
-pt
+cU
 fI
 ml
-pt
+Gm
 PP
 ab
 ab
@@ -3242,10 +3302,10 @@ Xa
 Xa
 Xa
 Xa
-pt
+cU
 fI
 pt
-pt
+Gm
 PP
 ab
 ab
@@ -3292,10 +3352,10 @@ Xa
 kC
 QS
 EK
-MK
+QS
 fI
 pt
-pt
+xJ
 PP
 ab
 ab
@@ -3345,7 +3405,7 @@ Xa
 OK
 fI
 pt
-pt
+iI
 PP
 ab
 ab
@@ -3395,7 +3455,7 @@ Xa
 wn
 fI
 pt
-pt
+gv
 PP
 ab
 ab
@@ -3442,8 +3502,8 @@ Xa
 ab
 EQ
 up
-MK
-MK
+QS
+QS
 pt
 PP
 PP
@@ -3492,8 +3552,8 @@ Xa
 ab
 ab
 Xa
-pt
-pt
+cU
+cU
 PP
 PP
 ab
