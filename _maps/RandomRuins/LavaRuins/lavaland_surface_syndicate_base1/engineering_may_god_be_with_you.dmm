@@ -1,4 +1,10 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/mouse/rat,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "aL" = (
 /obj/machinery/porta_turret/syndicate{
 	dir = 9
@@ -55,6 +61,11 @@
 /obj/structure/rack,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"cK" = (
+/obj/structure/barricade/wooden/crude,
+/obj/structure/girder,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "cV" = (
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
@@ -69,6 +80,7 @@
 /area/ruin/syndicate_lava_base/engineering)
 "da" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/shower/directional/west,
 /turf/open/floor/plating/rust,
 /area/ruin/syndicate_lava_base/engineering)
 "dH" = (
@@ -76,16 +88,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
-"dJ" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/obj/effect/decal/remains/human,
-/turf/open/floor/plating,
-/area/ruin/syndicate_lava_base/engineering)
 "eZ" = (
 /obj/machinery/atmospherics/components/trinary/filter/layer2{
 	dir = 8
 	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"fl" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/mineral/plastitanium,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "ge" = (
@@ -118,6 +130,20 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"iL" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/bot/cleanbot{
+	faction = list("neutral","silicon","turret","Syndicate");
+	name = "Jim";
+	desc = "An old, rusty cleaning robot.";
+	additional_access = /datum/id_trim/syndicom/crew;
+	req_one_access = list("syndicate");
+	radio_channel = "Syndicate";
+	radio_key = /obj/item/encryptionkey/syndicate
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "jw" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -128,6 +154,8 @@
 "ko" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/item/stock_parts/matter_bin,
+/obj/machinery/light/small/red/dim/directional/west,
+/obj/machinery/duct,
 /turf/open/floor/plating/rust,
 /area/ruin/syndicate_lava_base/engineering)
 "ky" = (
@@ -138,6 +166,12 @@
 "lg" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/engineering)
+"lT" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/mob/living/basic/mouse/rat,
+/turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "lV" = (
 /obj/effect/decal/cleanable/dirt,
@@ -160,6 +194,15 @@
 /obj/item/circuitboard/machine/pacman,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"mp" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/keycard/yellow{
+	puzzle_id = "syndicate_lavaland_engineering";
+	name = "syndicate engineering keycard";
+	desc = "An outdated type of keycard bearing the yellow insignia of Cybersun's engineering department. It's seen better days."
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "mq" = (
 /turf/closed/wall/mineral/plastitanium,
 /area/ruin/syndicate_lava_base/engineering)
@@ -167,6 +210,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
+/obj/effect/spawner/random/trash/grille_or_waste,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "na" = (
@@ -225,12 +269,6 @@
 "sB" = (
 /obj/machinery/light/broken/directional/west,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ruin/syndicate_lava_base/engineering)
-"sI" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/basic/mouse/rat,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "tA" = (
@@ -293,10 +331,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
-"zC" = (
-/mob/living/basic/mouse/rat,
-/turf/open/floor/plating,
-/area/ruin/syndicate_lava_base/engineering)
 "zD" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
@@ -308,12 +342,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/iron,
-/area/ruin/syndicate_lava_base/engineering)
-"Ao" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/mob/living/basic/mouse/rat,
-/turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Ay" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -331,15 +359,6 @@
 "Dh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
-/area/ruin/syndicate_lava_base/engineering)
-"DW" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/keycard/yellow{
-	puzzle_id = "syndicate_lavaland_engineering";
-	name = "syndicate engineering keycard";
-	desc = "An outdated type of keycard bearing the yellow insignia of Cybersun's engineering department. It's seen better days."
-	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Fa" = (
@@ -375,6 +394,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_hatch,
+/obj/structure/barricade/wooden,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "IS" = (
@@ -389,6 +409,12 @@
 /area/ruin/syndicate_lava_base/engineering)
 "Jf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"JK" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Kn" = (
@@ -429,7 +455,6 @@
 /area/ruin/syndicate_lava_base/engineering)
 "OL" = (
 /obj/machinery/duct,
-/obj/machinery/light/small/red/dim/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rust,
 /area/ruin/syndicate_lava_base/engineering)
@@ -475,6 +500,7 @@
 "Se" = (
 /obj/machinery/shower/directional/west,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/mineral/plastitanium,
 /turf/open/floor/plating/rust,
 /area/ruin/syndicate_lava_base/engineering)
 "SE" = (
@@ -497,6 +523,7 @@
 	default_raw_text = "DO NOT OPEN THE CRATE YOU FOOLS"
 	},
 /obj/effect/mapping_helpers/burnt_floor,
+/mob/living/basic/mouse/rat,
 /turf/open/floor/plating/rust,
 /area/ruin/syndicate_lava_base/engineering)
 "Ub" = (
@@ -504,20 +531,6 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/syndicate_access,
 /obj/effect/mapping_helpers/apc/cut_AI_wire,
-/turf/open/floor/plating,
-/area/ruin/syndicate_lava_base/engineering)
-"Xs" = (
-/obj/structure/cable,
-/obj/effect/decal/cleanable/dirt,
-/mob/living/basic/bot/cleanbot{
-	faction = list("neutral","silicon","turret","Syndicate");
-	name = "Jim";
-	desc = "An old, rusty cleaning robot.";
-	additional_access = /datum/id_trim/syndicom/crew;
-	req_one_access = list("syndicate");
-	radio_channel = "Syndicate";
-	radio_key = /obj/item/encryptionkey/syndicate
-	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "XM" = (
@@ -552,6 +565,10 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"Zl" = (
+/mob/living/basic/mouse/rat,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Zo" = (
@@ -696,8 +713,8 @@ mi
 wG
 Ub
 Jf
-zC
-sI
+Zl
+aq
 wG
 "}
 (12,1,1) = {"
@@ -707,7 +724,7 @@ GE
 Iy
 FH
 Tc
-dJ
+JK
 Zy
 QV
 "}
@@ -717,8 +734,8 @@ LV
 bL
 wG
 Kw
-Ao
-DW
+lT
+mp
 yQ
 QV
 "}
@@ -780,8 +797,8 @@ QV
 (19,1,1) = {"
 pB
 wG
-Xs
-yA
+iL
+fl
 cz
 wG
 Ob
@@ -794,7 +811,7 @@ wG
 ix
 yQ
 yQ
-wG
+cK
 OL
 ko
 QV
