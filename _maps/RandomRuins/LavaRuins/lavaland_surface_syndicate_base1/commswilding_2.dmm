@@ -27,6 +27,7 @@
 "d" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/structure/sign/poster/contraband/random/directional/north,
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms,
 /turf/open/floor/carpet/red,
 /area/ruin/syndicate_lava_base/telecomms)
 "e" = (
@@ -144,6 +145,20 @@
 /obj/structure/table/reinforced/plastitaniumglass,
 /obj/item/pen,
 /obj/item/paper_bin,
+/obj/item/stamp/denied{
+	pixel_y = -6
+	},
+/obj/item/stamp/granted{
+	pixel_y = -6;
+	pixel_x = 6
+	},
+/obj/item/stamp/syndicate{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/item/stamp/chameleon{
+	pixel_y = 6
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/telecomms)
 "w" = (
@@ -285,12 +300,6 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/telecomms)
-"N" = (
-/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms{
-	dir = 4
-	},
-/turf/open/floor/carpet/red,
-/area/ruin/syndicate_lava_base/telecomms)
 "O" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -313,24 +322,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/carpet/red,
-/area/ruin/syndicate_lava_base/telecomms)
-"S" = (
-/obj/structure/table/reinforced/plastitaniumglass,
-/obj/item/stamp/chameleon{
-	pixel_y = 6
-	},
-/obj/item/stamp/syndicate{
-	pixel_x = -6;
-	pixel_y = -6
-	},
-/obj/item/stamp/granted{
-	pixel_y = -6;
-	pixel_x = 6
-	},
-/obj/item/stamp/denied{
-	pixel_y = -6
-	},
-/turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/telecomms)
 "T" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
@@ -373,7 +364,7 @@
 /area/ruin/syndicate_lava_base/telecomms)
 
 (1,1,1) = {"
-B
+a
 k
 k
 k
@@ -385,7 +376,7 @@ a
 "}
 (2,1,1) = {"
 k
-N
+B
 C
 H
 k
@@ -473,9 +464,9 @@ k
 "}
 (10,1,1) = {"
 k
+k
 e
 u
-S
 v
 s
 k
@@ -483,7 +474,7 @@ k
 n
 "}
 (11,1,1) = {"
-k
+a
 k
 k
 k

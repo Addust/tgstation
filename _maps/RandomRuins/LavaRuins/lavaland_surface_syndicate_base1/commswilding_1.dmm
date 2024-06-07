@@ -68,12 +68,15 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/telecomms)
 "iD" = (
-/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms{
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating/corner{
 	dir = 4
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/wood,
-/area/ruin/syndicate_lava_base/telecomms)
+/turf/open/floor/iron/dark/textured_large,
+/area/ruin/syndicate_lava_base/main)
 "jY" = (
 /obj/effect/turf_decal/siding/thinplating,
 /obj/structure/table/reinforced,
@@ -186,12 +189,6 @@
 "wh" = (
 /obj/machinery/modular_computer/preset/civilian{
 	dir = 4
-	},
-/turf/open/floor/iron/dark/textured_large,
-/area/ruin/syndicate_lava_base/main)
-"wI" = (
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 1
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/main)
@@ -387,6 +384,7 @@
 "Oz" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/mob_spawn/ghost_role/human/lavaland_syndicate/comms,
 /turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/telecomms)
 "OI" = (
@@ -453,17 +451,18 @@
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/telecomms)
 "ZW" = (
-/obj/effect/turf_decal/siding/thinplating{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/turf_decal/siding/thinplating{
+	dir = 5
+	},
 /turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/main)
 
 (1,1,1) = {"
-qs
+Lu
 HS
 HS
 HS
@@ -475,7 +474,7 @@ Lu
 "}
 (2,1,1) = {"
 HS
-iD
+qs
 cY
 HS
 GI
@@ -562,8 +561,8 @@ NW
 jY
 "}
 (10,1,1) = {"
-wI
-pP
+aJ
+iD
 IZ
 IZ
 IZ
@@ -573,7 +572,7 @@ Ch
 Dl
 "}
 (11,1,1) = {"
-aJ
+Lu
 ZW
 vt
 yq

@@ -1,136 +1,971 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
-/turf/template_noop,
-/area/template_noop)
-"b" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/structure/cable,
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
-"c" = (
+"ah" = (
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 1
+	},
 /obj/structure/table/reinforced,
-/obj/item/storage/toolbox/syndicate{
-	pixel_y = 7
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
-/obj/item/storage/box/monkeycubes/syndicate,
-/obj/item/paper/crumpled{
-	default_raw_text = "Explosive testing on site is STRICTLY forbidden, as this outpost's walls are lined with explosives intended for intentional self-destruct purposes that may be set off prematurely through careless experiments.";
-	name = "Explosives Testing Warning";
-	pixel_x = -6;
-	pixel_y = -3
-	},
-/obj/machinery/airalarm/directional/north,
+/area/ruin/syndicate_lava_base/chemistry)
+"bD" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating/lavaland_atmos,
+/area/template_noop)
+"bK" = (
+/obj/machinery/airalarm/directional/east,
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
-/turf/open/floor/iron/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
 /area/ruin/syndicate_lava_base/testlab)
-"d" = (
-/obj/machinery/porta_turret/syndicate{
-	dir = 9
+"cd" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/vending/syndichem,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
 	},
+/area/ruin/syndicate_lava_base/chemistry)
+"dC" = (
+/obj/machinery/modular_computer/preset/civilian,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"dS" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/syndicate_lava_base/main)
-"i" = (
-/turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/chemistry)
+"ep" = (
+/obj/structure/sign/poster/contraband/random/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
 /area/ruin/syndicate_lava_base/testlab)
-"n" = (
-/obj/structure/sign/warning/secure_area,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/syndicate_lava_base/testlab)
-"w" = (
-/obj/structure/closet/emcloset,
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
-"A" = (
-/obj/structure/sign/warning/explosives/alt/directional/east,
-/obj/structure/closet/firecloset,
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
-	dir = 8
+"eE" = (
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"go" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/purple{
+	dir = 1
 	},
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
-"B" = (
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ruin/syndicate_lava_base/testlab)
-"F" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"gp" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/item/stack/sheet/mineral/plastitanium,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/chemistry)
+"gY" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/testlab)
-"K" = (
-/obj/structure/chair{
-	dir = 4
-	},
 /obj/structure/cable,
-/obj/machinery/power/apc/auto_name/directional/west,
-/obj/effect/mapping_helpers/apc/syndicate_access,
-/turf/open/floor/iron/dark,
+/obj/machinery/light/small/directional/north,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/duct,
+/turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/testlab)
-"N" = (
+"hr" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
-/obj/machinery/door/airlock/hatch{
-	name = "Experimentation Lab"
-	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/structure/cable,
 /obj/modular_map_connector,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+/obj/machinery/door/airlock/grunge{
+	name = "Research and Development"
+	},
+/obj/effect/mapping_helpers/airlock_note_placer{
+	note_info = "We're waiting on the engineers to put the explosives wing back together. We have secured a grant from Cybersun to set up an island some distance east for bomb testing so this DOESN'T happen again."
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"hP" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/structure/frame/machine/secured,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/chemistry)
+"hQ" = (
+/obj/machinery/airalarm/directional/west,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"iw" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	id_tag = "syndilava_experimentation_lockdown"
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/testlab)
+"iW" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"jD" = (
+/obj/structure/closet/secure_closet/medical1{
+	req_access = list("syndicate")
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/beakers/bluespace,
+/obj/item/storage/box/beakers/bluespace,
+/obj/machinery/light/small/directional/west,
+/obj/item/construction/plumbing,
+/obj/item/stack/ducts/fifty,
+/obj/item/stack/ducts/fifty,
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"jI" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/structure/cable,
+/obj/machinery/button/door{
+	req_access = list("syndicate");
+	id = "lavalandsyndi_sci_windows";
+	name = "Window Shutters"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"ks" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable,
+/obj/machinery/door/airlock/research/glass{
+	name = "Chemistry Lab"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/structure/barricade/wooden/crude,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/white,
+/area/ruin/syndicate_lava_base/chemistry)
+"kz" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/firealarm/directional/east,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"lj" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
 	dir = 1
 	},
-/obj/effect/turf_decal/tile/neutral/fourcorners,
-/turf/open/floor/iron/dark,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
 /area/ruin/syndicate_lava_base/testlab)
-"P" = (
+"ln" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing,
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"lR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"mo" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"mV" = (
+/obj/structure/frame/machine/secured,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"mY" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/effect/decal/cleanable/glass/plastitanium,
+/obj/structure/grille/broken,
+/obj/item/stock_parts/micro_laser/high,
+/obj/item/stack/sheet/mineral/plastitanium,
+/obj/machinery/door/poddoor/preopen{
+	id = "lavalandsyndi_sci_windows"
+	},
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/chemistry)
+"ny" = (
+/obj/machinery/firealarm/directional/north,
+/obj/machinery/computer/old,
+/obj/effect/mapping_helpers/broken_machine,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"oD" = (
+/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/machinery/door/firedoor,
+/obj/machinery/door/poddoor{
+	id = "lavalandsyndi_sci_windows"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/testlab)
+"oJ" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/machinery/button/door/directional/east{
+	id = "syndilava_experimentation_lockdown";
+	req_access = list("syndicate");
+	name = "Lockdown Shutters"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/structure/sign/poster/contraband/random/directional/south,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/shower/directional/north,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/testlab)
+"pl" = (
+/obj/structure/girder/displaced,
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"pP" = (
+/turf/template_noop,
+/area/template_noop)
+"qz" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/structure/girder,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/chemistry)
+"qM" = (
+/obj/machinery/light/directional/south,
+/obj/effect/spawner/random/vending/colavend,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"rL" = (
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/syndicate_lava_base/testlab)
+"rT" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"sq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"sx" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	id_tag = "syndilava_experimentation_lockdown"
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/testlab)
+"tD" = (
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"tN" = (
+/obj/item/circuitboard/machine/smoke_machine,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"tZ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/sign/poster/contraband/random/directional/north,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"vj" = (
+/obj/effect/baseturf_helper/lava_land/surface,
+/turf/closed/wall/mineral/plastitanium/nodiagonal,
+/area/ruin/syndicate_lava_base/chemistry)
+"xu" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/duct,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/testlab)
+"xv" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/obj/structure/floodlight_frame/completed,
+/turf/open/floor/plating/lavaland_atmos,
+/area/template_noop)
+"xF" = (
+/obj/item/stack/sheet/mineral/plastitanium,
+/obj/structure/cable,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"xP" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"yx" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/fancy/donut_box,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"za" = (
+/obj/item/shard/plastitanium,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Ac" = (
+/obj/effect/turf_decal/sand/volcanic,
+/obj/item/shard/plastitanium,
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/button/door/directional/north{
+	name = "Window Controls";
+	id = "lavalandsyndi_sci_windows";
+	req_access = list("syndicate")
+	},
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Au" = (
+/obj/structure/rack,
+/obj/item/clothing/suit/hooded/explorer/syndicate,
+/obj/item/clothing/mask/gas/syndicate,
+/obj/item/flashlight/seclite,
+/obj/item/tank/internals/oxygen,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/item/extinguisher,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/testlab)
+"CZ" = (
+/obj/effect/turf_decal/sand/volcanic,
+/obj/item/shard/plastitanium,
+/obj/machinery/chem_master,
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Ep" = (
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/broken_floor,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/structure/closet/l3closet,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"EF" = (
+/obj/effect/turf_decal/sand/volcanic,
+/obj/machinery/chem_dispenser/fullupgrade,
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"EG" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paperwork/research,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Fl" = (
+/obj/item/circuitboard/machine/chem_heater,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/chair/office{
+	dir = 8
+	},
+/obj/machinery/digital_clock/directional/north,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Fn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Fp" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Ft" = (
+/obj/effect/spawner/random/vending/snackvend,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Jk" = (
+/obj/structure/filingcabinet,
+/obj/item/paperwork/ancient,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"JY" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/machinery/door/airlock/external{
+	name = "External Experimentation"
+	},
+/obj/structure/fans/tiny,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/testlab)
+"Kq" = (
+/obj/machinery/button/door/directional/east{
+	id = "lavalandsyndi_sci_windows";
+	req_access = list("syndicate");
+	name = "Window Controls"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Ld" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/ammo_casing/rebar{
+	pixel_x = -6
+	},
+/obj/item/ammo_casing/rebar,
+/obj/item/ammo_casing/rebar{
+	pixel_x = 6
+	},
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"LO" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/obj/structure/cable,
+/obj/machinery/door/airlock/grunge{
+	name = "Workshop"
+	},
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Mh" = (
+/obj/structure/lattice/catwalk/mining,
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/lava/smooth/lava_land_surface,
+/area/template_noop)
+"MS" = (
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"NC" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"NG" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/storage/toolbox/syndicate,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"NK" = (
+/obj/structure/chair/office{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"NU" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/firealarm/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Oo" = (
+/obj/item/stock_parts/micro_laser,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Os" = (
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Ot" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"OE" = (
+/obj/effect/turf_decal/tile/purple/anticorner/contrasted{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/broken_floor,
+/obj/structure/table/reinforced,
+/obj/machinery/reagentgrinder{
+	pixel_y = 5
+	},
+/obj/item/reagent_containers/cup/beaker/large{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/cup/beaker/large,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"OP" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/machinery/digital_clock/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Pa" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/effect/spawner/random/maintenance/no_decals/two,
+/obj/effect/spawner/random/exotic/technology,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"PC" = (
+/obj/effect/turf_decal/sand/volcanic,
+/obj/item/stack/sheet/mineral/plastitanium,
+/obj/effect/turf_decal/tile/purple/half/contrasted{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/atmospherics/components/unary/vent_pump/layer4{
+	dir = 8
+	},
+/obj/machinery/light/small/broken/directional/north,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Qh" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/gun/ballistic/rifle/rebarxbow/syndie{
+	name = "prototype syndicate rebar crossbow";
+	w_class = 4;
+	desc = "An extremely early prototype of the Syndicate's heated rebar crossbow technology. Pretty heavy, but has a reliable ammunition feeding mechanism just like the later versions."
+	},
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"RR" = (
 /obj/machinery/door/airlock/external{
 	name = "External Experimentation"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/obj/effect/mapping_helpers/airlock/cyclelink_helper,
-/obj/structure/fans/tiny,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/airlock/cutaiwire,
+/obj/machinery/duct,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/testlab)
-"Q" = (
-/obj/structure/table/reinforced,
-/obj/item/restraints/handcuffs,
-/obj/item/taperecorder,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
-	dir = 4
+"SJ" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/effect/decal/cleanable/glass/plastitanium,
+/obj/structure/grille/broken,
+/obj/machinery/door/poddoor/preopen{
+	id = "lavalandsyndi_sci_windows"
 	},
-/obj/machinery/light/small/directional/west,
-/turf/open/floor/iron/dark,
+/turf/open/floor/plating/lavaland_atmos,
+/area/ruin/syndicate_lava_base/chemistry)
+"Tw" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/machinery/duct,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Wk" = (
+/obj/machinery/light/directional/north,
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth_large,
+/area/ruin/syndicate_lava_base/testlab)
+"Wu" = (
+/obj/effect/turf_decal/sand/plating/volcanic,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/turf/open/floor/plating/lavaland_atmos,
+/area/template_noop)
+"Xl" = (
+/obj/item/stack/sheet/mineral/plastitanium,
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Yg" = (
+/obj/item/extinguisher/empty,
+/obj/effect/decal/remains/human{
+	desc = "They look like human remains. They're pretty burnt."
+	},
+/turf/open/misc/asteroid/basalt/lava_land_surface,
+/area/template_noop)
+"Yq" = (
+/obj/effect/turf_decal/tile/purple/half/contrasted,
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/structure/table/reinforced,
+/obj/item/clothing/glasses/science,
+/obj/item/book/manual/wiki/chemistry,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white{
+	initial_gas_mix = "LAVALAND_ATMOS"
+	},
+/area/ruin/syndicate_lava_base/chemistry)
+"Yy" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/iron/smooth_large,
 /area/ruin/syndicate_lava_base/testlab)
 
 (1,1,1) = {"
-a
-B
-B
-B
-a
-a
+pP
+pP
+pP
+pP
+rL
+hr
+rL
+pP
+pP
+pP
+pP
 "}
 (2,1,1) = {"
-a
-B
-c
-Q
-K
-a
+rT
+rT
+rT
+rT
+Ot
+Fn
+ep
+rT
+Ft
+rL
+pP
 "}
 (3,1,1) = {"
-a
-P
-i
-F
-b
-N
+dC
+rT
+xP
+xP
+mo
+lR
+lj
+rT
+qM
+rL
+pP
 "}
 (4,1,1) = {"
-d
-n
-w
-A
-a
-a
+Wk
+NK
+xP
+Yy
+MS
+MS
+yx
+dS
+dS
+dS
+dS
+"}
+(5,1,1) = {"
+OP
+sq
+xP
+EG
+tD
+Tw
+dS
+dS
+ah
+OE
+dS
+"}
+(6,1,1) = {"
+Jk
+bK
+xP
+Kq
+kz
+lR
+ks
+NU
+go
+Yq
+dS
+"}
+(7,1,1) = {"
+rL
+rL
+LO
+rL
+rL
+lR
+dS
+Ep
+Fp
+cd
+dS
+"}
+(8,1,1) = {"
+rL
+tZ
+mo
+hQ
+rL
+RR
+dS
+vj
+Fl
+jD
+dS
+"}
+(9,1,1) = {"
+rL
+ny
+mo
+NC
+rL
+gY
+Au
+dS
+Oo
+EF
+dS
+"}
+(10,1,1) = {"
+rL
+Qh
+iW
+Ld
+rL
+xu
+oJ
+dS
+PC
+CZ
+dS
+"}
+(11,1,1) = {"
+rL
+Pa
+jI
+NG
+rL
+JY
+rL
+dS
+Ac
+hP
+qz
+"}
+(12,1,1) = {"
+rL
+oD
+oD
+oD
+rL
+iw
+sx
+qz
+SJ
+mY
+gp
+"}
+(13,1,1) = {"
+eE
+eE
+eE
+eE
+eE
+Mh
+ln
+eE
+eE
+eE
+eE
+"}
+(14,1,1) = {"
+eE
+eE
+eE
+eE
+eE
+Mh
+ln
+eE
+eE
+eE
+eE
+"}
+(15,1,1) = {"
+eE
+eE
+eE
+eE
+eE
+Mh
+ln
+eE
+eE
+pl
+eE
+"}
+(16,1,1) = {"
+eE
+eE
+eE
+eE
+Os
+xF
+Os
+eE
+eE
+eE
+eE
+"}
+(17,1,1) = {"
+eE
+eE
+eE
+Os
+Os
+Wu
+Os
+za
+eE
+eE
+eE
+"}
+(18,1,1) = {"
+eE
+eE
+eE
+Os
+Os
+xv
+bD
+Yg
+eE
+eE
+eE
+"}
+(19,1,1) = {"
+pP
+eE
+eE
+eE
+za
+Os
+tN
+Xl
+eE
+eE
+pP
+"}
+(20,1,1) = {"
+pP
+pP
+eE
+eE
+Os
+mV
+Xl
+eE
+eE
+pP
+pP
+"}
+(21,1,1) = {"
+pP
+pP
+eE
+eE
+eE
+eE
+eE
+eE
+eE
+pP
+pP
+"}
+(22,1,1) = {"
+pP
+pP
+pP
+eE
+eE
+eE
+eE
+eE
+pP
+pP
+pP
 "}
