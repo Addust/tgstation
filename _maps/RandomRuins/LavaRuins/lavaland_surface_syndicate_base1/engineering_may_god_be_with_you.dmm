@@ -19,7 +19,12 @@
 /obj/item/turbine_parts/rotor{
 	current_tier = 3
 	},
-/turf/open/floor/plating,
+/obj/item/circuitboard/machine/turbine_compressor,
+/obj/item/circuitboard/machine/turbine_stator,
+/obj/item/circuitboard/machine/turbine_rotor,
+/obj/item/circuitboard/computer/turbine_computer,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/engineering)
 "bz" = (
 /obj/structure/cable,
@@ -29,10 +34,25 @@
 /area/ruin/syndicate_lava_base/engineering)
 "bA" = (
 /obj/machinery/light/broken/directional/north,
+/obj/effect/mapping_helpers/broken_machine,
+/obj/machinery/computer/old,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "bL" = (
 /obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"cz" = (
+/obj/item/storage/toolbox/syndicate{
+	pixel_x = 6;
+	pixel_y = 6
+	},
+/obj/item/storage/toolbox/syndicate{
+	pixel_x = -6;
+	pixel_y = -6
+	},
+/obj/item/storage/toolbox/syndicate,
+/obj/structure/rack,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "cV" = (
@@ -54,6 +74,12 @@
 "dH" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"dJ" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/remains/human,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "eZ" = (
@@ -80,6 +106,12 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"hi" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stock_parts/matter_bin,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "ix" = (
 /obj/structure/cable,
 /obj/machinery/power/smes/full,
@@ -93,15 +125,29 @@
 /obj/machinery/duct,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"ko" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/stock_parts/matter_bin,
+/turf/open/floor/plating/rust,
+/area/ruin/syndicate_lava_base/engineering)
 "ky" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"lg" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/engineering)
 "lV" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"mi" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/item/stock_parts/servo,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "mm" = (
@@ -110,6 +156,8 @@
 	},
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/frame/machine/secured,
+/obj/item/circuitboard/machine/pacman,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "mq" = (
@@ -121,10 +169,24 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"na" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/item/circuitboard/machine/autolathe,
+/obj/structure/frame/machine/secured,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "ng" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"nH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "pr" = (
@@ -162,6 +224,13 @@
 /area/ruin/syndicate_lava_base/engineering)
 "sB" = (
 /obj/machinery/light/broken/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"sI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/mouse/rat,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "tA" = (
@@ -182,7 +251,6 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/engineering)
 "xE" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/closet/crate/engineering,
 /obj/item/stack/sheet/iron/fifty,
 /obj/item/stack/sheet/iron/fifty,
@@ -194,7 +262,17 @@
 /obj/item/stack/sheet/mineral/plastitanium{
 	amount = 30
 	},
-/turf/open/floor/plating,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/engineering)
+"xS" = (
+/obj/effect/mapping_helpers/airalarm/syndicate_access,
+/obj/machinery/airalarm/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/engineering)
 "yA" = (
 /obj/structure/cable,
@@ -215,9 +293,26 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
-"zW" = (
-/obj/structure/falsewall/plastitanium,
+"zC" = (
+/mob/living/basic/mouse/rat,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"zD" = (
+/obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"zW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/engineering)
+"Ao" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/mob/living/basic/mouse/rat,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Ay" = (
@@ -233,8 +328,36 @@
 /obj/structure/closet/radiation,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"Dh" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"DW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/item/keycard/yellow{
+	puzzle_id = "syndicate_lavaland_engineering";
+	name = "syndicate engineering keycard";
+	desc = "An outdated type of keycard bearing the yellow insignia of Cybersun's engineering department. It's seen better days."
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "Fa" = (
 /obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/door/puzzle/keycard/destructible{
+	name = "Secure Storage";
+	puzzle_id = "syndicate_lavaland_engineering"
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"FH" = (
+/obj/item/stock_parts/matter_bin,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"GE" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Iy" = (
@@ -243,6 +366,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_hatch,
 /obj/effect/mapping_helpers/airlock/abandoned,
+/obj/structure/cable,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "IH" = (
@@ -283,11 +407,11 @@
 "Mx" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/effect/turf_decal/sand/plating/volcanic,
-/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer2{
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2{
 	dir = 1
 	},
 /turf/open/floor/plating/lavaland_atmos,
-/area/ruin/syndicate_lava_base/engineering)
+/area/template_noop)
 "Ob" = (
 /obj/machinery/duct,
 /obj/machinery/door/airlock/maintenance_hatch,
@@ -299,6 +423,8 @@
 "Op" = (
 /obj/machinery/light/directional/south,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "OL" = (
@@ -313,7 +439,6 @@
 	},
 /obj/item/stack/sheet/mineral/plasma/thirty,
 /obj/structure/closet/crate/radiation,
-/obj/item/circuitboard/machine/pacman,
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
@@ -352,6 +477,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating/rust,
 /area/ruin/syndicate_lava_base/engineering)
+"SE" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/ruin/syndicate_lava_base/engineering)
 "Tc" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -369,8 +499,30 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/plating/rust,
 /area/ruin/syndicate_lava_base/engineering)
+"Ub" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/syndicate_access,
+/obj/effect/mapping_helpers/apc/cut_AI_wire,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"Xs" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/bot/cleanbot{
+	faction = list("neutral","silicon","turret","Syndicate");
+	name = "Jim";
+	desc = "An old, rusty cleaning robot.";
+	additional_access = /datum/id_trim/syndicom/crew;
+	req_one_access = list("syndicate");
+	radio_channel = "Syndicate";
+	radio_key = /obj/item/encryptionkey/syndicate
+	},
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "XM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/item/shard,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "XP" = (
@@ -388,6 +540,19 @@
 /area/ruin/syndicate_lava_base/engineering)
 "Yj" = (
 /turf/open/floor/engine/o2,
+/area/ruin/syndicate_lava_base/engineering)
+"Yp" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"YZ" = (
+/obj/machinery/atmospherics/components/trinary/filter/layer2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Zo" = (
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
@@ -440,12 +605,12 @@ QV
 wG
 XP
 Tv
-zW
-Kw
-Jf
+Fa
+yQ
+SE
 aW
-wG
-QV
+To
+Mx
 "}
 (4,1,1) = {"
 wG
@@ -453,9 +618,9 @@ wG
 wG
 wG
 Kw
-Jf
-Kw
-wG
+zW
+xS
+To
 QV
 "}
 (5,1,1) = {"
@@ -464,9 +629,9 @@ Yj
 ge
 yI
 tA
-eZ
-Kw
-wG
+YZ
+lg
+To
 wG
 "}
 (6,1,1) = {"
@@ -475,9 +640,9 @@ Yj
 ge
 yI
 rE
-dH
-XM
-XM
+Tc
+Zy
+Yp
 wG
 "}
 (7,1,1) = {"
@@ -486,8 +651,8 @@ wG
 wG
 wG
 bA
-Jf
-Kw
+Dh
+nH
 Op
 wG
 "}
@@ -498,8 +663,8 @@ wc
 yI
 tA
 eZ
-Kw
-XM
+yQ
+Zy
 wG
 "}
 (9,1,1) = {"
@@ -527,33 +692,33 @@ wG
 (11,1,1) = {"
 wG
 Qn
-Fa
+mi
 wG
-Kw
+Ub
 Jf
-Kw
-Zy
+zC
+sI
 wG
 "}
 (12,1,1) = {"
 wG
 ky
-Fa
+GE
 Iy
-Kw
+FH
 Tc
-Zy
+dJ
 Zy
 QV
 "}
 (13,1,1) = {"
 wG
 LV
-Kw
+bL
 wG
 Kw
-dH
-yQ
+Ao
+DW
 yQ
 QV
 "}
@@ -571,7 +736,7 @@ QV
 (15,1,1) = {"
 wG
 lV
-yN
+zD
 yQ
 yQ
 dH
@@ -581,9 +746,9 @@ wG
 "}
 (16,1,1) = {"
 wG
-yN
-yN
-yA
+na
+zD
+hi
 bL
 mw
 jw
@@ -615,9 +780,9 @@ QV
 (19,1,1) = {"
 pB
 wG
+Xs
 yA
-yA
-Kw
+cz
 wG
 Ob
 wG
@@ -631,7 +796,7 @@ yQ
 yQ
 wG
 OL
-da
+ko
 QV
 "}
 (21,1,1) = {"

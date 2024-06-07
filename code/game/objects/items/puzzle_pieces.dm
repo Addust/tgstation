@@ -54,7 +54,7 @@
 	/// do we use queue_links?
 	var/uses_queuelinks = TRUE
 	/// Message that occurs when the door is opened
-	var/open_message = "The door beeps, and slides opens."
+	var/open_message = "The door beeps, and slides open."
 
 /obj/machinery/door/puzzle/get_save_vars()
 	return ..() + NAMEOF(src, puzzle_id)
@@ -652,3 +652,24 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/machinery/puzzle/password/pin, 32)
 	for(var/i in 1 to rand(200, 300))
 		scrambled_text += pick(pass_characters)
 	add_raw_text(scrambled_text)
+
+/obj/machinery/door/puzzle/keycard/destructible
+
+	desc = "A reinforced keycard door. It's seen better days."
+	explosion_block = 2
+	heat_proof = TRUE
+	max_integrity = 300
+	armor_type = /datum/armor/door_puzzle/weak
+	resistance_flags = FIRE_PROOF | ACID_PROOF | LAVA_PROOF
+	damage_deflection = 45
+
+
+/datum/armor/door_puzzle/weak
+	melee = 45
+	bullet = 55
+	laser = 55
+	energy = 65
+	bomb = 65
+	bio = 100
+	fire = 100
+	acid = 35
