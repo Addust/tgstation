@@ -334,6 +334,10 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/main)
+"fy" = (
+/obj/structure/chair/stool/bar/directional/west,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/bar)
 "fI" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -1214,6 +1218,10 @@
 /obj/effect/turf_decal/tile/purple/half/contrasted,
 /turf/open/floor/iron/white,
 /area/ruin/syndicate_lava_base/testlab)
+"BS" = (
+/obj/structure/chair/stool/bar/directional/east,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/bar)
 "BT" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/shutters{
@@ -1364,6 +1372,11 @@
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
 /turf/open/floor/iron/grimy,
 /area/ruin/syndicate_lava_base/dormitories)
+"FC" = (
+/obj/structure/sink/directional/south,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/showroomfloor,
+/area/ruin/syndicate_lava_base/bar)
 "FH" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/docking_port/stationary{
@@ -1502,6 +1515,10 @@
 	},
 /turf/open/lava/smooth/lava_land_surface,
 /area/lavaland/surface/outdoors)
+"IY" = (
+/obj/structure/chair/stool/bar/directional/south,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/bar)
 "Jb" = (
 /obj/effect/turf_decal/tile/red/anticorner/contrasted{
 	dir = 1
@@ -1748,8 +1765,8 @@
 /turf/open/floor/iron/white,
 /area/ruin/syndicate_lava_base/testlab)
 "Pm" = (
-/obj/structure/sink/directional/south,
-/turf/open/floor/iron/showroomfloor,
+/obj/structure/table/wood/fancy/red,
+/turf/open/floor/wood,
 /area/ruin/syndicate_lava_base/bar)
 "Py" = (
 /obj/structure/fans/tiny,
@@ -1911,6 +1928,12 @@
 /obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/syndicate_lava_base/arrivals)
+"Ua" = (
+/obj/machinery/door/window/brigdoor/left/directional/west{
+	req_access = list("syndicate")
+	},
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/bar)
 "Un" = (
 /obj/structure/table/reinforced,
 /obj/item/surgery_tray/full/advanced,
@@ -2010,6 +2033,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white,
 /area/ruin/syndicate_lava_base/medbay)
+"VN" = (
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/bar)
 "VV" = (
 /obj/machinery/duct,
 /obj/structure/sign/poster/contraband/random/directional/east,
@@ -2066,6 +2093,11 @@
 /obj/structure/cable,
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/cargo)
+"XM" = (
+/obj/structure/window/reinforced/unanchored/spawner/directional/south,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/ruin/syndicate_lava_base/bar)
 "XX" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -3882,9 +3914,9 @@ ab
 ab
 ab
 Ix
-HQ
-HQ
-HQ
+bt
+HE
+Ix
 HQ
 HQ
 HQ
@@ -3932,11 +3964,11 @@ ab
 ab
 ab
 Ix
-HQ
-HQ
-HQ
-HQ
-HQ
+FC
+on
+Ng
+rR
+rR
 HQ
 YG
 CF
@@ -3982,11 +4014,11 @@ ab
 ab
 ab
 Ix
+Ix
+Ix
+Ix
 HQ
-HQ
-HQ
-HQ
-HQ
+rR
 rR
 qU
 CF
@@ -4032,12 +4064,12 @@ ab
 ab
 ab
 Ix
+BS
 HQ
 HQ
 HQ
 HQ
 HQ
-rR
 Ix
 CF
 CF
@@ -4082,12 +4114,12 @@ ab
 ab
 ab
 Ix
+Pm
 HQ
-HQ
-HQ
-HQ
-HQ
-rR
+IY
+VN
+XM
+Ua
 Ix
 Ix
 Ix
@@ -4132,15 +4164,15 @@ ab
 ab
 ab
 bW
+fy
+HQ
+IY
+VN
 HQ
 HQ
 HQ
 HQ
 HQ
-rR
-Ix
-bt
-HE
 Xa
 kC
 MQ
@@ -4184,13 +4216,13 @@ ab
 bW
 HQ
 HQ
+IY
+VN
 HQ
 HQ
 HQ
-rR
-Ix
-Pm
-on
+HQ
+HQ
 Xa
 cW
 am
@@ -4234,13 +4266,13 @@ ab
 bW
 bW
 HQ
+IY
+VN
 HQ
 HQ
 HQ
-rR
-Ix
-Ix
-Ng
+HQ
+HQ
 Xa
 Xa
 Xa
@@ -4285,12 +4317,12 @@ ab
 bW
 bW
 HQ
+Ix
 HQ
 HQ
-rR
-rR
-rR
-rR
+HQ
+HQ
+HQ
 Xa
 kC
 MQ
@@ -4334,8 +4366,8 @@ ab
 ab
 ab
 bW
-bW
-HQ
+Ix
+Ix
 HQ
 HQ
 HQ
@@ -4384,8 +4416,8 @@ ab
 ab
 ab
 ab
-bW
-bW
+ab
+Ix
 HQ
 HQ
 HQ
@@ -4435,8 +4467,8 @@ ab
 ab
 ab
 ab
-bW
-bW
+Ix
+Ix
 HQ
 HQ
 HQ
@@ -4486,8 +4518,8 @@ ab
 ab
 ab
 ab
-bW
-bW
+Ix
+Ix
 HQ
 HQ
 HQ
@@ -4537,9 +4569,9 @@ ab
 ab
 ab
 ab
-bW
-bW
-bW
+Ix
+Ix
+Ix
 Ix
 Xa
 Xa
