@@ -67,14 +67,3 @@
 	upperinfo = "CYBERSUN-INTERDYNE JOINT OUTPOST 88 CARGO MANIFEST - PROPERTY OF SYNDICATE COALITION"
 	content = list("NOTICE: UPDATE MANIFESTS AFTER END OF YOUR SHIFT. FAILURE TO DO SO WILL RESULT IN RE-ASSIGNMENT.","<b>REPORT ALL MISSING SUPPLIES TO SYNDICATE COMMAND IMMEDIATELY.</b>","TWO SETS COMBAT UNIFORM","THREE SETS SYNDICATE HEADSET","THREE SETS FLASHLIGHT-EXTINGUISHER","SIX SETS DONK POCKETS","THREE SETS EMERGENCY RADIATION RESPONSE GEAR","TWO SETS AMMUNITION CONTAINER","ONE SET TOOLS","ONE SET MEDICAL EQUIPMENT","ONE BLUESPACE RAPID PART EXCHANGE DEVICE AND TOOLBELT","THREE SETS EMERGENCY INTERNALS","ONE SET RESERVE ENGINEERING PARTS","ONE O- BLOOD CRATE","ONE SURPLUS ROBOTIC LIMBS CONTAINER")
 
-//This is a bad idea, so it's admin-intervention-only even to spawn, and it won't fly unless the admin basically goes "yea fuck it we ball"
-
-/obj/machinery/computer/shuttle/syndicate_lavaland
-	name = "syndicate ferry console"
-	desc = "A Syndicate ferry's flight terminal. Doesn't seem to be authorised to go anywhere."
-	icon_screen = "syndishuttle"
-	icon_keyboard = "syndie_key"
-	light_color = COLOR_SOFT_RED
-	req_access = list(ACCESS_SYNDICATE)
-	shuttleId = "syndicate_lavaland"
-	possible_destinations = "syndicate_lava_arrivals" //its an admin shenanigan. no more

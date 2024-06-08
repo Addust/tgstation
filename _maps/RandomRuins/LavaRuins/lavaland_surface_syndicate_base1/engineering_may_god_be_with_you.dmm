@@ -104,6 +104,11 @@
 /obj/machinery/atmospherics/components/unary/passive_vent,
 /turf/open/floor/engine/o2,
 /area/ruin/syndicate_lava_base/engineering)
+"gq" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/steam_vent/fast,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "gP" = (
 /obj/machinery/porta_turret/syndicate{
 	dir = 10
@@ -116,6 +121,11 @@
 /obj/machinery/door/firedoor,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"gW" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/hobo_squat,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "hi" = (
@@ -195,12 +205,7 @@
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "mp" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/item/keycard/yellow{
-	puzzle_id = "syndicate_lavaland_engineering";
-	name = "syndicate engineering keycard";
-	desc = "An outdated type of keycard bearing the yellow insignia of Cybersun's engineering department. It's seen better days."
-	},
+/obj/effect/spawner/random/engineering/tank,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "mq" = (
@@ -231,6 +236,7 @@
 /obj/machinery/atmospherics/components/binary/pump/layer2{
 	dir = 1
 	},
+/obj/effect/spawner/random/maintenance/two,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "pr" = (
@@ -241,12 +247,12 @@
 /area/ruin/syndicate_lava_base/engineering)
 "pB" = (
 /obj/structure/cable,
-/obj/structure/lattice/catwalk/mining,
+/obj/effect/turf_decal/sand/plating/volcanic,
 /obj/structure/railing{
 	dir = 9
 	},
 /obj/machinery/power/rtg/advanced,
-/turf/open/lava/smooth/lava_land_surface,
+/turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
 "pE" = (
 /obj/effect/decal/cleanable/dirt,
@@ -281,6 +287,15 @@
 "tZ" = (
 /turf/open/floor/engine/n2,
 /area/ruin/syndicate_lava_base/engineering)
+"uH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/engineering/tank,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"vg" = (
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "wc" = (
 /obj/machinery/atmospherics/components/unary/passive_vent,
 /turf/open/floor/engine/n2,
@@ -310,6 +325,7 @@
 /obj/effect/mapping_helpers/airalarm/syndicate_access,
 /obj/machinery/airalarm/directional/south,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/steam_vent,
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/engineering)
 "yA" = (
@@ -356,9 +372,23 @@
 /obj/structure/closet/radiation,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"CE" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/moisture_trap,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "Dh" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"Ej" = (
+/obj/machinery/atmospherics/components/binary/pump/layer2{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/spawner/random/decoration/glowstick,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Fa" = (
@@ -409,6 +439,14 @@
 /area/ruin/syndicate_lava_base/engineering)
 "Jf" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
+"JE" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/structure/cable,
+/obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "JK" = (
@@ -451,6 +489,7 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/spawner/random/engineering/toolbox,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "OL" = (
@@ -469,12 +508,12 @@
 /area/ruin/syndicate_lava_base/engineering)
 "Qr" = (
 /obj/structure/cable,
-/obj/structure/lattice/catwalk/mining,
+/obj/effect/turf_decal/sand/plating/volcanic,
 /obj/structure/railing{
 	dir = 1
 	},
 /obj/machinery/power/rtg/advanced,
-/turf/open/lava/smooth/lava_land_surface,
+/turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
 "Qv" = (
 /obj/structure/cable,
@@ -533,6 +572,11 @@
 /obj/effect/mapping_helpers/apc/cut_AI_wire,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"Vl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/maintenance/two,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "XM" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/item/shard,
@@ -569,6 +613,7 @@
 /area/ruin/syndicate_lava_base/engineering)
 "Zl" = (
 /mob/living/basic/mouse/rat,
+/obj/effect/spawner/random/trash/moisture_trap,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
 "Zo" = (
@@ -581,6 +626,15 @@
 /obj/effect/mapping_helpers/airlock/abandoned,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/engineering)
+"Zr" = (
+/obj/item/keycard/yellow{
+	puzzle_id = "syndicate_lavaland_engineering";
+	name = "syndicate engineering keycard";
+	desc = "An outdated type of keycard bearing the yellow insignia of Cybersun's engineering department. It's seen better days."
+	},
+/obj/structure/safe,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/engineering)
 "Zy" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/effect/decal/cleanable/dirt,
@@ -588,12 +642,12 @@
 /area/ruin/syndicate_lava_base/engineering)
 "ZD" = (
 /obj/structure/cable,
-/obj/structure/lattice/catwalk/mining,
+/obj/effect/turf_decal/sand/plating/volcanic,
 /obj/structure/railing{
 	dir = 5
 	},
 /obj/machinery/power/rtg/advanced,
-/turf/open/lava/smooth/lava_land_surface,
+/turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
 
 (1,1,1) = {"
@@ -678,10 +732,10 @@ wG
 tZ
 wc
 yI
-tA
+Ej
 eZ
 yQ
-Zy
+CE
 wG
 "}
 (9,1,1) = {"
@@ -733,10 +787,10 @@ wG
 LV
 bL
 wG
-Kw
+Zr
 lT
-mp
-yQ
+pE
+uH
 QV
 "}
 (14,1,1) = {"
@@ -753,12 +807,12 @@ QV
 (15,1,1) = {"
 wG
 lV
-zD
-yQ
-yQ
+JE
+Vl
+gq
 dH
 Kw
-Kw
+mp
 wG
 "}
 (16,1,1) = {"
@@ -777,7 +831,7 @@ wG
 ng
 yN
 bL
-Kw
+vg
 wG
 pO
 pE
@@ -810,7 +864,7 @@ Qr
 wG
 ix
 yQ
-yQ
+gW
 cK
 OL
 ko
