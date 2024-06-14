@@ -26,3 +26,8 @@
 	suffix = "syndicate_fighter_shiv"
 	name = "Syndicate Fighter"
 	description = "A small Syndicate vessel with exactly one tile of useful interior space and 4 laser turrets. Starts with a Syndicate mob in the pilot's seat, and extremely cramped."
+
+/datum/map_template/shuttle/ruin/soviet_flagship
+	suffix = "soviet_flagship"
+	name = "PWS Khranitel Revolyutsii"
+	description = "The former flagship of the Third Soviet Union, now run by a bunch of kosmogopniks with no true cause and copious amounts of vodka. Full of hostile mobs, slow as shit, but armed pretty well."

@@ -23,7 +23,7 @@
 /mob/living/basic/trooper/russian/ranged
 	ai_controller = /datum/ai_controller/basic_controller/trooper/ranged
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/russian/ranged
-	r_hand = /obj/item/gun/ballistic/automatic/pistol
+	r_hand = /obj/item/gun/ballistic/revolver/nagant
 	loot = list(
 		/obj/effect/mob_spawn/corpse/human/russian/ranged,
 		/obj/item/gun/ballistic/revolver/nagant,
@@ -36,4 +36,4 @@
 	AddComponent(/datum/component/ranged_attacks, casing_type = casingtype, projectile_sound = projectilesound, cooldown_time = 1 SECONDS)
 
 /mob/living/basic/trooper/russian/ranged/lootless
-	loot = list()
+	loot = list(/obj/effect/mob_spawn/corpse/human/russian/ranged) //let them have the drip, the gun is the loot no?

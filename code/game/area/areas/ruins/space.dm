@@ -699,3 +699,30 @@
 /area/ruin/space/has_grav/garbagetruck/medicalwaste
 /area/ruin/space/has_grav/garbagetruck/squat
 /area/ruin/space/has_grav/garbagetruck/toystore
+
+//Soviet Drydock
+
+/area/ruin/space/has_grav/soviet_fleetyard
+	name = "Soviet Fleetyard"
+	sound_environment = SOUND_AREA_SMALL_ENCLOSED
+	ambience_index = AMBIENCE_MAINT
+
+/area/ruin/space/has_grav/soviet_fleetyard/control_room
+	name = "Soviet Fleetyard Control Room"
+	ambience_index = AMBIENCE_DANGER
+
+/area/ruin/space/has_grav/soviet_fleetyard/engineering
+	name = "Soviet Fleetyard Engineering"
+	ambience_index = AMBIENCE_ENGI
+
+/area/ruin/space/has_grav/soviet_fleetyard/docking
+	name = "Soviet Fleetyard Docking Bay"
+	sound_environment = SOUND_AREA_LARGE_ENCLOSED
+
+/area/ruin/space/has_grav/soviet_fleetyard/dorms
+	name = "Soviet Fleetyard Dormitories"
+	ambience_index = AMBIENCE_GENERIC
+
+/area/ruin/space/has_grav/soviet_fleetyard/hallway
+	name = "Soviet Fleetyard Hallway"
+	ambience_index = AMBIENCE_RUINS

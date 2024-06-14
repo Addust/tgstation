@@ -508,3 +508,10 @@
 	name = "Space-Ruin Decommissioned Garbage Truck NX4"
 	description = "An NX-760 interstellar transport barge. At the end of their life cycle, they are often filled with trash and launched into unexplored space to become someone else's problem. This one is full of commercial trash, and spiders."
 
+/datum/map_template/ruin/space/soviet_drydock
+	id = "sovietdrydock"
+	suffix = "sovietdrydock.dmm"
+	name = "Space-Ruin - Soviet Drydock"
+	description = "We've recieved reports that the PWS Khranitel Revolyutsii has been sighted in the area, seemingly hiding inside an abandoned Soviet fleetyard. Requesting a scout force to investigate."
+	cost = 2 //russian economy come to you
+

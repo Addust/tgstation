@@ -248,6 +248,41 @@
 	requires_power = TRUE
 	area_limited_icon_smoothing = /area/shuttle/ruin/cyborg_mothership
 
+// ------------ PWS Khranitel Revolyutsii - Forgotten Soviet Flagship
+
+/area/shuttle/ruin/soviet_flagship
+	name = "PWS Khranitel Revolyutsii"
+	requires_power = TRUE
+	area_limited_icon_smoothing = /area/shuttle/ruin/soviet_flagship
+
+/area/shuttle/ruin/soviet_flagship/bridge
+	name = "PWS Khranitel Revolyutsii Bridge"
+	ambience_index = AMBIENCE_DANGER
+
+/area/shuttle/ruin/soviet_flagship/hallway
+	name = "PWS Khranitel Revolyutsii Hallway"
+	ambience_index = AMBIENCE_RUINS
+
+/area/shuttle/ruin/soviet_flagship/storage
+	name = "PWS Khranitel Revolyutsii Storage Bay"
+	ambience_index = AMBIENCE_MAINT
+
+/area/shuttle/ruin/soviet_flagship/engineering
+	name = "PWS Khranitel Revolyutsii Engine Room"
+	ambience_index = AMBIENCE_ENGI
+
+/area/shuttle/ruin/soviet_flagship/security
+	name = "PWS Khranitel Revolyutsii Security"
+	ambience_index = AMBIENCE_DANGER
+
+/area/shuttle/ruin/soviet_flagship/crew
+	name = "PWS Khranitel Revolyutsii Crew Quarters"
+	ambience_index = AMBIENCE_GENERIC
+
+/area/shuttle/ruin/soviet_flagship/munitions
+	name = "PWS Khranitel Revolyutsii Munitions"
+	ambience_index = AMBIENCE_MAINT
+
 // ----------- Arena Shuttle
 /area/shuttle/shuttle_arena
 	name = "arena"
