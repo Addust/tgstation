@@ -283,6 +283,26 @@
 	name = "PWS Khranitel Revolyutsii Munitions"
 	ambience_index = AMBIENCE_MAINT
 
+/area/shuttle/ruin/soviet_flagship/infirmary
+	name = "PWS Khranitel Revolyutsii Infirmary"
+	ambience_index = AMBIENCE_MEDICAL
+
+/area/shuttle/ruin/soviet_flagship/docking_port
+	name = "PWS Khranitel Revolyutsii Arrivals"
+	ambience_index = AMBIENCE_GENERIC
+
+/area/shuttle/ruin/soviet_flagship/boarding_bay
+	name = "PWS Khranitel Revolyutsii Strike Team Prep Room"
+	ambience_index = AMBIENCE_DANGER
+
+/area/shuttle/ruin/soviet_flagship/command_wing
+	name = "PWS Khranitel Revolyutsii Command Wing"
+	ambience_index = AMBIENCE_DANGER
+
+/area/shuttle/ruin/soviet_flagship/bar
+	name = "PWS Khranitel Revolyutsii Bar"
+	ambience_index = AMBIENCE_GENERIC
+
 // ----------- Arena Shuttle
 /area/shuttle/shuttle_arena
 	name = "arena"

@@ -1,2355 +1,6274 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"a" = (
+"ac" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"aj" = (
+/obj/structure/closet/syndicate,
+/obj/item/ammo_box/n762,
+/obj/machinery/light/small/directional/east,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"av" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"az" = (
+/obj/structure/fluff/oldturret{
+	icon_state = "standard_broken";
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"aE" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/closet/crate/engineering/electrical,
+/obj/item/clothing/gloves/color/yellow,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/clothing/gloves/color/fyellow,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/electrical,
+/obj/item/storage/toolbox/electrical,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"aN" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"aR" = (
+/obj/machinery/microwave,
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"bb" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"bj" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"bp" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"bv" = (
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"bx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"by" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"bA" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"bG" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/obj/effect/mapping_helpers/damaged_window{
+	integrity_damage_max = 0.5
+	},
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/security)
+"bK" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"bL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/engine/vacuum,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"bM" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"bS" = (
+/obj/structure/table/wood,
+/obj/machinery/microwave,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"bV" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/structure/window/spawner/directional/east,
+/obj/machinery/stasis,
+/obj/item/bedsheet/red,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/crew)
+"bW" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"ca" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"cc" = (
+/turf/closed/wall/rust,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"cf" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"ch" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"ci" = (
+/obj/machinery/igniter{
+	id = "soviet_flagship_turbine"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine/vacuum,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"cl" = (
+/obj/structure/sign/warning/electric_shock/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"cn" = (
+/obj/machinery/door/airlock/external/glass/ruin,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"co" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"cp" = (
+/obj/item/bedsheet/hos{
+	name = "soviet bedsheet";
+	desc = "For the Motherland!"
+	},
+/obj/structure/bed,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"ct" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"cu" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"cA" = (
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"cB" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	id = "soviet_assault_right"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"cD" = (
+/obj/machinery/turretid{
+	pixel_y = 24;
+	req_access = null;
+	control_area = /area/shuttle/ruin/soviet_flagship/bridge;
+	icon_state = "control_kill";
+	lethal = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"cF" = (
+/obj/machinery/light/small/directional/east,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"cG" = (
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"cL" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"cS" = (
+/obj/machinery/door/airlock/public/glass{
+	name = "Arrivals"
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"cV" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"cZ" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_bridge"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"do" = (
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"dq" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/computer/old{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/broken_machine,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"dy" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/supply/visible{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"dC" = (
+/obj/machinery/light/floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"dF" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"dG" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"dJ" = (
+/obj/machinery/button/door/directional/west{
+	id = "soviet_flagship_emergency_turbine_vent";
+	name = "Turbine Emergency Vent"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/computer/monitor{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"dN" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/button/door/directional/east{
+	id = "soviet_flagship_muni_storage"
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"dO" = (
+/turf/open/floor/iron/white/smooth_large,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"dR" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"dW" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/textured,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"ec" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Security"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"ed" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"ef" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"eg" = (
+/obj/machinery/door/airlock/command{
+	name = "Lieutenant's Quarters"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"ei" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/trinary/filter/atmos/o2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ep" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"eq" = (
+/obj/item/storage/medkit/brute{
+	pixel_x = 3;
+	pixel_y = 3
+	},
+/obj/item/storage/medkit/fire{
+	pixel_x = -3;
+	pixel_y = -3
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/left,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/medical/medkit,
+/turf/open/floor/iron/white/smooth_corner,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"ex" = (
+/obj/structure/closet/secure_closet/freezer/kitchen/all_access,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"eB" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"eI" = (
+/obj/effect/spawner/structure/window/reinforced/plasma,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"eZ" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/poddoor{
+	id = "soviet_assault_left"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"fc" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/delivery/white,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"fw" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/medical/supplies,
+/turf/open/floor/iron/white/smooth_corner,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"fz" = (
+/mob/living/basic/spider/giant/tarantula/scrawny,
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"fB" = (
+/obj/structure/reagent_dispensers/water_cooler{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"fG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/shower/directional/north,
+/obj/structure/fluff/shower_drain,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/noslip,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"fL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"fQ" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"fU" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"fV" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/engine/vacuum,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"gb" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"gc" = (
+/obj/effect/turf_decal/siding/wood/corner,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"gg" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"gm" = (
+/obj/machinery/atmospherics/components/trinary/mixer/airmix/flipped{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"gn" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"gA" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"gB" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"gD" = (
+/mob/living/basic/spider/giant/nurse/scrawny,
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"gF" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"gJ" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"gN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"gP" = (
+/obj/effect/decal/cleanable/blood/old,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"gV" = (
+/obj/machinery/door/airlock/highsecurity{
+	name = "Munitions Bay"
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"gW" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"gY" = (
+/mob/living/basic/trooper/russian/ranged/soldier,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"hj" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/smooth_half{
+	dir = 8
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"hl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/duct,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"ho" = (
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_turbine_out"
+	},
+/turf/open/floor/plating/reinforced,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"hu" = (
+/obj/machinery/door/window,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"hB" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"hN" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/bar)
+"hS" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"ib" = (
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"id" = (
+/obj/structure/bed/dogbed{
+	name = "ivan's bed";
+	desc = "How are you supposed to fit a bear in this, anyway?"
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"ie" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"ig" = (
+/obj/machinery/atmospherics/components/trinary/mixer{
+	dir = 1;
+	name = "turbine gas mixer"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ih" = (
+/obj/machinery/power/shuttle_engine/propulsion/left{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"il" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ir" = (
+/obj/structure/closet/syndicate,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb,
+/obj/effect/spawner/random/exotic/technology,
+/obj/effect/spawner/random/exotic/syndie,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"ix" = (
+/obj/docking_port/mobile{
+	shuttle_areas = list(/area/shuttle/ruin/soviet_flagship);
+	shuttle_id = "soviet_flagship";
+	dir = 2;
+	name = "PWS Khranitel Revolyutsii"
+	},
+/obj/machinery/door/airlock/external/glass/ruin,
+/obj/effect/mapping_helpers/airlock/cyclelink_helper,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"iy" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"iM" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"iO" = (
+/turf/open/floor/iron/white/smooth_half{
+	dir = 8
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"iQ" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"iR" = (
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"iY" = (
+/obj/structure/railing{
+	dir = 9
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"iZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"jf" = (
+/obj/machinery/power/turbine/core_rotor{
+	dir = 8;
+	mapping_id = "soviet_flagship"
+	},
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/reinforced,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"jj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"jp" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"js" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"jx" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"jy" = (
+/obj/structure/closet/secure_closet/freezer/fridge/all_access,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"jB" = (
+/mob/living/basic/trooper/russian/ranged/soldier/lieutenant{
+	loot = list(/obj/effect/mob_spawn/corpse/human/russian/ranged/trooper,/obj/item/gun/ballistic/rifle/boltaction, /obj/item/paper/fluff/ruins/soviet_flagship/bear_cannibal)
+	},
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"jC" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"jD" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/crew)
+"jI" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/bacteria,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"jP" = (
+/obj/machinery/computer/shuttle/soviet_flagship{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"jR" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"jT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"jW" = (
+/obj/machinery/computer/old{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/broken_machine,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"kd" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/crate,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"ke" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"km" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/reagent_dispensers/plumbed{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"kn" = (
+/obj/machinery/door/airlock/command{
+	name = "Command Crew Quarters"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"kr" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/mob_spawn/corpse/human/russian/engineer,
+/obj/structure/spider/cocoon,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"ku" = (
+/obj/structure/closet/crate,
+/obj/item/stack/sheet/mineral/plasma/thirty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/sheet/glass/fifty,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"kJ" = (
+/obj/structure/closet/syndicate,
+/obj/effect/spawner/random/maintenance/three,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"kQ" = (
+/turf/open/floor/engine/hull,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"kW" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"kX" = (
+/obj/structure/bed,
+/obj/effect/decal/cleanable/blood/old,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/white/textured,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"lb" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/marker_beacon/burgundy,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/security)
+"li" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/storage)
+"ln" = (
+/obj/structure/fluff/oldturret{
+	icon_state = "standard_broken";
+	dir = 5
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/bar)
+"lq" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Security Access"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"lt" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb/sealed/tough,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"ly" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/pipedispenser,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"lA" = (
+/obj/structure/closet/crate/critter,
+/mob/living/basic/mothroach,
+/obj/item/stack/spacecash/c100,
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"lI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"mp" = (
+/obj/machinery/door/airlock/command{
+	name = "First Officer's Quarters"
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"mq" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"mA" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/security)
+"mD" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"mE" = (
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"mF" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/closet/crate/large,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/storage/toolbox/ammobox/strilka310,
+/obj/item/storage/toolbox/ammobox/strilka310,
+/obj/item/ammo_box/n762,
+/obj/item/ammo_box/n762,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"mP" = (
+/turf/closed/wall,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"mQ" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/crew)
+"mX" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"nc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"nd" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"ne" = (
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"nj" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"nm" = (
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"nr" = (
+/obj/machinery/door/airlock/grunge{
+	name = "Boarding Team Prep Room"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"nC" = (
+/obj/effect/mapping_helpers/damaged_window{
+	integrity_damage_max = 0.5
+	},
+/obj/structure/window/reinforced/fulltile,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"nD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"nG" = (
+/obj/machinery/chem_dispenser/drinks/beer,
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"nK" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"nM" = (
+/obj/effect/decal/cleanable/glass,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"nO" = (
+/obj/structure/table/reinforced,
+/obj/machinery/recharger,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"of" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 4
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"oh" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"ok" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"or" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ot" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/structure/fluff/oldturret{
+	icon_state = "standard_broken";
+	dir = 10
+	},
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/security)
+"oz" = (
+/obj/structure/reagent_dispensers/plumbed{
+	reagent_id = /datum/reagent/consumable/ethanol/vodka;
+	desc = "A stationary, plumbed, water tank. This one smells of vodka."
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"oJ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"oP" = (
+/mob/living/basic/trooper/russian/engineer,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"oT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"pe" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/layer4{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/air,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"pf" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/security)
+"pg" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/window/spawner/directional/west,
+/obj/item/bedsheet/red{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/frame/machine/secured,
+/obj/item/circuitboard/machine/stasis,
+/obj/item/stock_parts/servo,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/crew)
+"ph" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/stockparts/basic,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"pi" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"pp" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood,
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"ps" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"py" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/structure/frame/machine/secured,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"pE" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"pH" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/storage)
+"pM" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"pP" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/layer_manifold/general/visible{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"pQ" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"pS" = (
+/obj/structure/closet/toolcloset,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/crowbar/hammer,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"pU" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"pW" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"pX" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"pZ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber{
+	dir = 8
+	},
+/turf/open/floor/engine/vacuum,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"qb" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/security)
+"qc" = (
+/obj/structure/closet/syndicate,
+/obj/item/clothing/under/costume/soviet,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/suit/armor/vest/russian_coat,
+/obj/item/clothing/head/costume/ushanka,
+/obj/item/storage/toolbox/ammobox/strilka310,
+/obj/item/clothing/under/syndicate/rus_army,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"qg" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"qn" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"qo" = (
+/turf/closed/wall/rust,
+/area/shuttle/ruin/soviet_flagship/bar)
+"qr" = (
+/obj/machinery/computer/old{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/broken_machine,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"qt" = (
+/obj/item/bedsheet/hos{
+	name = "soviet bedsheet";
+	desc = "For the Motherland!"
+	},
+/obj/structure/bed,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/parquet,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"qv" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"qF" = (
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"qP" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"qT" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/on,
+/turf/open/floor/engine/vacuum,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"qU" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Ship Monitoring"
+	},
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"qV" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/parquet,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"rj" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/button/door/directional/west{
+	name = "Emergency Exit";
+	id = "soviet_flagship_muni_gunbay"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"rk" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/effect/turf_decal/delivery,
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"rm" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"ro" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"rr" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"rB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"rH" = (
+/obj/structure/closet/syndicate,
+/obj/item/storage/toolbox/emergency,
+/obj/item/food/rationpack,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/storage/medkit/ancient,
+/obj/item/knife/combat/survival,
+/obj/item/tank/jetpack/oxygen,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"rN" = (
+/obj/item/shard,
+/obj/effect/decal/cleanable/blood/old,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"rO" = (
+/obj/structure/railing,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"rQ" = (
+/obj/machinery/mass_driver{
+	id = "soviet_assault_left"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/window/brigdoor/left/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"rU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"rV" = (
+/obj/machinery/computer/camera_advanced/shuttle_docker/soviet_flagship{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"sa" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"sb" = (
+/obj/structure/table/reinforced,
+/obj/machinery/button/door{
+	id = "soviet_flagship_bridge";
+	name = "Bridge Window Shutters";
+	pixel_x = -8
+	},
+/obj/machinery/button/door{
+	id = "soviet_flagship_windows";
+	name = "Ship Window Shutters";
+	pixel_x = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"sc" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/trinary/filter/atmos/n2{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"sd" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"se" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/passage,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"sf" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"sg" = (
+/obj/structure/sign/poster/contraband/communist_state/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"sh" = (
+/obj/machinery/computer/old{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/broken_machine,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/mystery_box_item,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"si" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/unlocked,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"sj" = (
+/mob/living/basic/trooper/russian/ranged/soldier,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"sn" = (
+/obj/structure/rack,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb,
+/obj/item/gun/ballistic/shotgun/riot,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"sq" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ss" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"st" = (
+/mob/living/basic/trooper/russian{
+	name = "Russian Crewmember";
+	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole."
+	},
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"sB" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"sC" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"sG" = (
+/obj/effect/spawner/random/vending/snackvend,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"sH" = (
+/mob/living/basic/trooper/russian{
+	name = "Russian Crewmember";
+	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole."
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"sI" = (
+/obj/machinery/light/small/directional/north,
+/obj/structure/closet/mini_fridge/grimy,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"sM" = (
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"sQ" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"sT" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/white/smooth_half,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"sZ" = (
+/obj/item/paper/fluff/ruins/soviet_flagship/why_no_gun,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"ta" = (
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"tj" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"tl" = (
+/obj/structure/window/reinforced/tinted/spawner/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"to" = (
+/obj/machinery/door/airlock/maintenance_hatch{
+	name = "Water Reserves"
+	},
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"tv" = (
+/obj/effect/decal/hammerandsickle,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"tB" = (
+/obj/machinery/computer/old{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/broken_machine,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"tE" = (
+/turf/open/floor/iron/white/smooth_half,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"tH" = (
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"tJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/obj/machinery/porta_turret/syndicate/energy{
+	faction = list("russian");
+	desc = "A Soviet-made energy blaster auto-turret.";
+	dir = 5;
+	disabled_time = 6
+	},
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"tL" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 1
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"tU" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/security)
+"tV" = (
 /turf/template_noop,
 /area/template_noop)
-"c" = (
+"ug" = (
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_turbine_in"
+	},
+/turf/open/floor/plating/reinforced,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"uh" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"ui" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"uj" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"ux" = (
+/obj/machinery/chem_dispenser/drinks,
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"uD" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/spikes,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/mess,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"uE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/engine/vacuum,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"uF" = (
+/obj/effect/decal/cleanable/glass/plasma,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"uL" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"uQ" = (
+/obj/machinery/door/window/brigdoor/left/directional/south,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"uR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/structure/girder/displaced,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"uW" = (
+/obj/structure/table/wood,
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"vc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"vf" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"vq" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/statue/bronze/marx,
+/obj/structure/cable,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"vr" = (
+/obj/effect/decal/hammerandsickle,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"vu" = (
+/obj/machinery/computer/monitor{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"vA" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"vC" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"vF" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"vQ" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"vR" = (
+/obj/structure/cable,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"wi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/suit_storage_unit/spaceruin,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"wq" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"wr" = (
+/mob/living/basic/trooper/russian/ranged/soldier,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"wu" = (
+/obj/machinery/oven/range,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"wC" = (
+/obj/machinery/door/airlock/command{
+	name = "Bridge"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"wH" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"wJ" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"wL" = (
+/obj/machinery/door/airlock/engineering{
+	name = "Engineering"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"wM" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"wP" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/engineering{
+	name = "Engineering"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"wS" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"wV" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/bar)
+"xd" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"xe" = (
+/obj/structure/lattice,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"xi" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/west,
+/obj/structure/window/reinforced/plasma/spawner/directional/north,
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"xj" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"xv" = (
+/obj/machinery/light/small/directional/south,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"xw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"xH" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/medical/injector,
+/turf/open/floor/iron/white/smooth_half,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"xU" = (
+/turf/closed/wall/mineral/titanium/survival/nodiagonal,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"xV" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 8
+	},
+/obj/structure/window/spawner/directional/east,
+/obj/machinery/stasis,
+/obj/item/bedsheet/red,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/crew)
+"xZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/machinery/power/apc/auto_name/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"yc" = (
+/mob/living/basic/trooper/russian{
+	name = "Russian Crewmember";
+	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole."
+	},
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ye" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"yq" = (
+/obj/machinery/porta_turret/syndicate/energy{
+	faction = list("russian");
+	desc = "A Soviet-made energy blaster auto-turret.";
+	dir = 10
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"yr" = (
+/obj/machinery/modular_computer/preset/engineering{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"yw" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"yA" = (
+/obj/structure/reagent_dispensers/plumbed,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"yF" = (
+/obj/structure/spider/stickyweb,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"yI" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"yK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/sleeper/party{
+	dir = 4
+	},
+/turf/open/floor/iron/white/smooth_half{
+	dir = 8
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"yS" = (
+/turf/closed/wall,
+/area/shuttle/ruin/soviet_flagship/bar)
+"zb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ze" = (
+/obj/machinery/airalarm/directional/north,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"zh" = (
+/obj/machinery/light/small/directional/south,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"zi" = (
+/obj/machinery/door/airlock/external/glass/ruin{
+	name = "Turbine Burn Chamber"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"zj" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"zn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"zr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"zA" = (
+/turf/closed/wall/rust,
+/area/shuttle/ruin/soviet_flagship/storage)
+"zJ" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"zM" = (
+/obj/structure/filingcabinet,
+/obj/item/paperwork/engineering,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"zQ" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/mess,
+/obj/structure/closet/crate/freezer,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/food/rationpack,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/obj/item/reagent_containers/cup/glass/waterbottle/large,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"zS" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/delivery/white,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Aa" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Ac" = (
+/obj/structure/cable,
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Ag" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Ah" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Ai" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/item/surgery_tray/full,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/textured,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Ao" = (
+/obj/structure/closet/syndicate,
+/obj/item/clothing/head/helmet/rus_ushanka,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb,
+/obj/effect/spawner/random/sakhno/ammo,
+/obj/item/storage/box/rubbershot,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"Au" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Av" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Az" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/machinery/computer/old{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/broken_machine,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"AN" = (
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"AO" = (
+/obj/structure/rack,
+/obj/item/gun/ballistic/rifle/boltaction,
+/obj/item/knife/combat/survival,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"AV" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 6
+	},
+/obj/structure/window/spawner/directional/west,
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/item/bedsheet/red{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/crew)
+"AZ" = (
+/obj/machinery/light/small/directional/east,
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Bc" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Bf" = (
+/obj/machinery/vending/boozeomat/all_access,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Bp" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/structure/table/reinforced,
+/obj/machinery/button/door/directional/east{
+	id = "soviet_flagship_muni_gunbay";
+	name = "Gunnery Bay Access"
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"BE" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"BF" = (
+/obj/structure/closet/firecloset/full,
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"BH" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"BJ" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/structure/tank_holder,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"BR" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"BS" = (
+/obj/machinery/computer/station_alert{
+	dir = 4
+	},
+/obj/item/radio/intercom/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"BY" = (
+/obj/structure/railing{
+	layer = 3.01
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Ca" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Ch" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Co" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"CE" = (
+/turf/closed/wall,
+/area/shuttle/ruin/soviet_flagship/storage)
+"CF" = (
+/obj/machinery/power/smes/engineering,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"CG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/smes,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"CR" = (
+/obj/machinery/door/airlock/maintenance_hatch,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/duct,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"CS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"CU" = (
+/obj/structure/closet/syndicate,
+/obj/item/clothing/under/costume/soviet,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/suit/armor/vest/russian_coat,
+/obj/item/clothing/head/costume/ushanka,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/clothing/under/syndicate/rus_army,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"Dc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Dl" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/delivery/white,
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Do" = (
+/obj/machinery/duct,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Dr" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Ds" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"DB" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/medical/minor_healing,
+/turf/open/floor/iron/white/smooth_half,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"DG" = (
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"DH" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"DN" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"DP" = (
+/obj/machinery/mass_driver{
+	id = "soviet_assault_right"
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/door/window/brigdoor/right/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"DT" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"DX" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Ed" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/engine/hull,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"El" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Em" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Crew Stasis Facility"
+	},
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Ep" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Ez" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"ED" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"EE" = (
+/obj/machinery/vending/sovietsoda,
+/obj/effect/mapping_helpers/broken_machine,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"EF" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/mob/living/basic/trooper/russian{
+	name = "Russian Crewmember";
+	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole."
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"EM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"EQ" = (
+/obj/machinery/atmospherics/pipe/layer_manifold/general/visible,
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ER" = (
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_muni_cannon"
+	},
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"ET" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"EZ" = (
+/turf/closed/wall/rust,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Fa" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/security)
+"Fb" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/pod/old{
+	id = "soviet_assault_left";
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Fc" = (
+/obj/structure/table/reinforced,
+/obj/machinery/computer/pod/old{
+	id = "soviet_assault_right";
+	dir = 1
+	},
+/obj/effect/turf_decal/stripes/corner,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Fk" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/firecloset/full,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Fm" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Fp" = (
+/obj/machinery/suit_storage_unit/spaceruin,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Fu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/freezer/blood,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/random,
+/obj/item/reagent_containers/blood/o_minus,
+/obj/item/reagent_containers/blood/o_minus,
+/turf/open/floor/iron/white/smooth_corner{
+	dir = 8
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"FB" = (
+/obj/structure/railing{
+	dir = 10
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"FD" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"FH" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/machinery/door/window,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"FK" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"FP" = (
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"FR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/table/reinforced,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"FX" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/trash/bin,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"Gb" = (
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Ge" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Gj" = (
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/turf_decal/bot_white,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Gs" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Gv" = (
+/obj/machinery/shower/directional/west,
+/obj/structure/sink/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Gy" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"GB" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"GN" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/damaged_window{
+	integrity_damage_max = 0.5
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"GP" = (
+/obj/machinery/button/ignition{
+	id = "soviet_flagship_turbine";
+	pixel_x = -24
+	},
+/obj/machinery/button/door/directional/west{
+	id = "soviet_flagship_turbine_out";
+	name = "Turbine Outlet";
+	pixel_y = -12
+	},
+/obj/machinery/button/door/directional/west{
+	id = "soviet_flagship_turbine_in";
+	pixel_y = 12;
+	name = "Turbine Inlet Port"
+	},
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"GR" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"GU" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/mob/living/basic/trooper/russian/engineer,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"GV" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/white/smooth_half{
+	dir = 8
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Hp" = (
+/turf/closed/wall,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Hr" = (
+/obj/machinery/computer/turbine_computer{
+	mapping_id = "soviet_flagship";
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Hu" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Hx" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"HE" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/freezer,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"HF" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"HJ" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/delivery/red,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"HK" = (
+/obj/structure/table/wood,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"HQ" = (
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"HR" = (
+/obj/structure/spider/stickyweb,
+/obj/machinery/shieldgen,
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"HS" = (
+/obj/machinery/door/airlock/command{
+	name = "Captain's Quarters"
+	},
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/wood,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"HU" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Ia" = (
+/obj/structure/frame/machine/secured,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Ih" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Ir" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"It" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"IC" = (
+/mob/living/basic/trooper/russian/engineer,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"IF" = (
+/mob/living/basic/bear/russian{
+	faction = list("russian","neutral");
+	name = "Ivan";
+	desc = "The particularly-well-trained ammunition hauler of the PWS Khranitel Revolyutsii's munitions department. Doesn't seem to have much of a job right now other than watching the spiders."
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"IG" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"IJ" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"IO" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/spider/giant/hunter/scrawny,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"IQ" = (
+/obj/structure/filingcabinet,
+/obj/item/paperwork/ancient,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"IX" = (
+/turf/open/floor/iron/white/smooth_corner,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"IZ" = (
+/obj/structure/table/reinforced,
+/obj/machinery/door/window/right,
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
+/obj/effect/spawner/random/medical/minor_healing,
+/obj/effect/spawner/random/medical/minor_healing,
+/turf/open/floor/iron/white/smooth_half,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Je" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Jt" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 5
+	},
+/obj/structure/window/spawner/directional/west,
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/item/bedsheet/red{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/crew)
+"JA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"JG" = (
+/obj/effect/decal/cleanable/glass/plastitanium,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"JH" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"JN" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"JT" = (
+/obj/structure/frame/machine/secured,
+/obj/item/circuitboard/computer/turbine_computer,
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/reinforced,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"JX" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen,
+/obj/effect/turf_decal/delivery,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"JZ" = (
+/obj/structure/fluff/oldturret{
+	icon_state = "standard_broken";
+	dir = 9
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Kc" = (
+/obj/structure/table/reinforced,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/item/paper_bin,
+/obj/item/pen,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Kl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/security)
+"Kn" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Kr" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/iv_drip,
+/turf/open/floor/iron/white/textured,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Kx" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Foreman"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"KP" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"KZ" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/structure/closet/crate/freezer,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/food/meat/slab,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/item/food/meat/slab/bear,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Lg" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Lk" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"Lx" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/poddoor/shutters{
+	dir = 4;
+	id = "soviet_flagship_muni_storage"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"LG" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"LK" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"LM" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"LN" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"LQ" = (
+/obj/structure/cable,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"LU" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Command Access"
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/security)
+"Ma" = (
+/obj/structure/railing{
+	dir = 5
+	},
+/obj/structure/statue/silver/sec{
+	name = "statue of a soviet soldier"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Mi" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Ml" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Mo" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Mp" = (
+/obj/machinery/power/shuttle_engine/propulsion/right{
+	dir = 8
+	},
+/turf/open/floor/plating/airless,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Mr" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Ms" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Mw" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/suit_storage_unit/spaceruin,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Mz" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"MA" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_muni_gunbay"
+	},
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"MK" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"MP" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"MW" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Nc" = (
+/mob/living/basic/trooper/russian/ranged/soldier,
+/obj/structure/chair/office{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Ne" = (
+/turf/open/floor/iron/white/smooth_edge{
+	dir = 4
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Nj" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Nm" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/mob/living/basic/trooper/russian/ranged/soldier,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"No" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/security)
+"Nq" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"NA" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"NC" = (
+/turf/closed/wall,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"NE" = (
+/obj/structure/railing{
+	dir = 6
+	},
+/obj/structure/statue/silver/sec{
+	name = "statue of a soviet soldier"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"NF" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/security)
+"NG" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"NJ" = (
+/obj/structure/cable,
+/obj/machinery/power/port_gen/pacman/pre_loaded,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"NO" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/item/shard,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"NP" = (
 /obj/machinery/button/door/directional/east{
 	id = "soviet_flagship_muni_cannon";
 	name = "Cannon Hatch"
 	},
 /turf/open/floor/engine,
 /area/shuttle/ruin/soviet_flagship/munitions)
-"d" = (
-/obj/effect/turf_decal/stripes/line,
-/turf/open/floor/plating,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"e" = (
-/turf/closed/wall/r_wall/rust,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"g" = (
-/turf/open/floor/plating,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"h" = (
-/obj/effect/decal/cleanable/glass,
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"j" = (
-/obj/effect/decal/cleanable/glass/plastitanium,
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"o" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/item/shard,
-/turf/open/floor/plating,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"t" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/turf/open/floor/plating,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"u" = (
-/obj/item/shard,
-/obj/effect/decal/cleanable/blood/old,
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"v" = (
+"NV" = (
+/obj/structure/closet/emcloset/anchored,
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
 	},
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/munitions)
-"w" = (
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"x" = (
-/obj/effect/decal/cleanable/glass/plasma,
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"C" = (
-/obj/effect/turf_decal/stripes/corner{
+"NZ" = (
+/obj/structure/chair/comfy/shuttle/tactical{
 	dir = 4
 	},
-/turf/open/floor/plating,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"D" = (
+/mob/living/basic/trooper/russian/ranged/officer{
+	name = "Russian Captain"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"Oa" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/damaged_window{
+	integrity_damage_max = 0.5
+	},
+/obj/structure/barricade/wooden/crude,
 /obj/machinery/door/poddoor{
-	id = "soviet_flagship_muni_cannon"
+	id = "soviet_flagship_windows"
 	},
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"H" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 1
-	},
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"J" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"M" = (
-/turf/template_noop,
-/area/shuttle/ruin/soviet_flagship/storage)
-"N" = (
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Of" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/turf/open/floor/engine/hull,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"O" = (
-/turf/closed/wall/r_wall,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"V" = (
-/obj/machinery/portable_atmospherics/canister/plasma,
-/turf/open/floor/plating,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"W" = (
-/turf/open/floor/engine/hull,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"X" = (
-/obj/effect/turf_decal/stripes/corner,
-/turf/open/floor/plating,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"Y" = (
-/obj/structure/frame/machine/secured,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Oh" = (
+/obj/structure/window/reinforced/plasma/spawner/directional/south,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/item/turbine_parts/compressor,
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
-/area/shuttle/ruin/soviet_flagship/munitions)
-"Z" = (
-/obj/effect/turf_decal/stripes/line,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Oq" = (
+/obj/machinery/light/small/directional/east,
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Ov" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"OD" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"OI" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
 /obj/item/shard,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/munitions)
+"OK" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"ON" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"OP" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"OQ" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/structure/window/spawner/directional/west,
+/obj/machinery/stasis{
+	dir = 4
+	},
+/obj/item/bedsheet/red{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/crew)
+"OR" = (
+/obj/structure/cable,
+/obj/machinery/door/airlock/maintenance/external{
+	name = "Electrical"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"OX" = (
+/obj/machinery/light/small/directional/east,
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"OY" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Pd" = (
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Pk" = (
+/obj/machinery/door/window/brigdoor/left/directional/north,
+/obj/structure/cable,
+/obj/effect/turf_decal/stripes/line,
+/mob/living/basic/trooper/russian/engineer,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Pq" = (
+/obj/machinery/door/airlock/vault{
+	name = "Secure Armoury"
+	},
+/obj/effect/mapping_helpers/airlock/locked,
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/structure/barricade/wooden/crude,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"Pr" = (
+/obj/structure/closet/crate/engineering/electrical,
+/obj/item/stack/sheet/mineral/plasma/thirty,
+/obj/item/storage/toolbox/electrical,
+/obj/effect/spawner/random/maintenance/two,
+/obj/effect/spawner/random/engineering/tool,
+/obj/effect/spawner/random/engineering/toolbox,
+/obj/effect/spawner/random/engineering/material,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Ps" = (
+/obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Pt" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/smooth_large,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Pu" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Pz" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"PG" = (
+/obj/effect/turf_decal/stripes/corner,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"PH" = (
+/obj/machinery/light/small/directional/north,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"PK" = (
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"PN" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"PV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Qm" = (
+/mob/living/basic/trooper/russian/engineer,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Qp" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Qt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/blacklight/directional/south,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Qv" = (
+/mob/living/basic/spider/giant/hunter/scrawny,
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"QQ" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"QR" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/chair,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"QS" = (
+/obj/structure/closet/emcloset/anchored,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"QU" = (
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Ra" = (
+/obj/structure/lattice,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Rb" = (
+/obj/structure/railing{
+	dir = 4
+	},
+/obj/structure/statue/gold/hos{
+	name = "statue of a soviet officer"
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Rd" = (
+/turf/closed/wall/rust,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Re" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/closet/crate/secure/centcom{
+	desc = "A secure crate. It's covered in Russian graffiti.";
+	req_access = list("command")
+	},
+/obj/item/clothing/under/rank/centcom/commander,
+/obj/item/clothing/shoes/combat,
+/obj/item/gun/ballistic/automatic/pistol/m1911,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"Rm" = (
+/obj/structure/closet/emcloset/anchored,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Rp" = (
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"Rw" = (
+/obj/structure/cable,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Ry" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"RD" = (
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/broken_floor,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"RF" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"RG" = (
+/mob/living/basic/trooper/russian/ranged/soldier,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
+"RP" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 9
+	},
+/obj/structure/window/spawner/directional/east,
+/obj/machinery/stasis,
+/obj/item/bedsheet/red,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Sf" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Ss" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"St" = (
+/obj/machinery/power/turbine/turbine_outlet{
+	dir = 8
+	},
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating/reinforced,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"SF" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/secure/loot,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"SK" = (
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
+"SL" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"SM" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/parquet,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"ST" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"SX" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/power/floodlight,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"SY" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Tj" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"To" = (
+/obj/machinery/computer/crew{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"Tp" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"Tr" = (
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Ts" = (
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Tu" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Tw" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/shower/directional/north,
+/obj/structure/fluff/shower_drain,
+/turf/open/floor/noslip,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"TB" = (
+/obj/effect/spawner/structure/window/reinforced,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Ua" = (
+/obj/effect/spawner/structure/window/reinforced,
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_windows"
+	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Uf" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 8
+	},
+/obj/machinery/button/door/directional/west{
+	id = "soviet_flagship_muni_storage"
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Uy" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/broken_floor,
+/obj/effect/spawner/random/medical/patient_stretcher,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"UB" = (
+/obj/structure/sign/poster/contraband/soviet_propaganda/directional/east,
+/obj/effect/turf_decal/stripes/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"UC" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Storage Room"
+	},
+/obj/structure/spider/stickyweb,
+/obj/effect/mapping_helpers/airlock/welded,
+/obj/effect/mapping_helpers/airlock_note_placer{
+	note_info = "Spiders. Don't open the door, Ivan."
+	},
+/obj/structure/cable,
+/obj/structure/barricade/wooden/crude,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"UF" = (
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_emergency_turbine_vent"
+	},
+/turf/open/floor/engine/vacuum,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"UK" = (
+/turf/closed/wall/r_wall,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"UO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"UT" = (
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"UW" = (
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/obj/machinery/atmospherics/components/unary/outlet_injector/on,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Vb" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Vk" = (
+/obj/structure/spider/stickyweb,
+/obj/structure/spider/stickyweb/sealed/tough,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"Vr" = (
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Vu" = (
+/obj/machinery/computer/monitor{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"Vv" = (
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Vy" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/structure/lattice,
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"VB" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"VD" = (
+/obj/structure/table/wood,
+/obj/item/ammo_box/n762,
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"VE" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/line{
+	dir = 8
+	},
+/obj/machinery/door/poddoor{
+	id = "soviet_flagship_muni_gunbay"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"VI" = (
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"VM" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"VN" = (
+/turf/template_noop,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"VW" = (
+/obj/machinery/door/airlock/hatch{
+	name = "Shoilet"
+	},
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Wl" = (
+/obj/structure/closet/syndicate,
+/obj/item/clothing/under/costume/soviet,
+/obj/item/clothing/shoes/jackboots,
+/obj/item/clothing/suit/armor/vest/russian_coat,
+/obj/item/storage/toolbox/ammobox/strilka310/surplus,
+/obj/item/clothing/under/syndicate/rus_army,
+/obj/item/clothing/head/costume/ushanka/polar,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/wood/parquet,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Wn" = (
+/obj/structure/chair/office{
+	dir = 8
+	},
+/mob/living/basic/trooper/russian/engineer,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Wp" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/obj/machinery/porta_turret/syndicate/energy{
+	faction = list("russian");
+	desc = "A Soviet-made energy blaster auto-turret.";
+	dir = 6
+	},
+/turf/open/floor/plating/reinforced/airless,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"Wr" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/white/smooth_half{
+	dir = 8
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"WA" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"WE" = (
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"WH" = (
+/obj/structure/railing,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"WI" = (
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"WU" = (
+/obj/machinery/door/window/left,
+/mob/living/basic/trooper/russian{
+	name = "Russian Crewmember";
+	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole."
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/textured,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"WV" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Xc" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/white/smooth_half,
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Xg" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"Xi" = (
+/obj/structure/window/reinforced/tinted/spawner/directional/south,
+/obj/machinery/reagentgrinder,
+/obj/structure/table,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Xp" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"Xq" = (
+/obj/machinery/power/terminal{
+	dir = 4
+	},
+/obj/structure/cable,
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Xr" = (
+/obj/structure/sign/poster/contraband/soviet_propaganda/directional/west,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Xs" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Xw" = (
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Xx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"XK" = (
+/obj/effect/turf_decal/siding/wood/corner{
+	dir = 1
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"XQ" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"XR" = (
+/obj/effect/decal/cleanable/glass,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/structure/grille/broken,
+/turf/open/floor/engine,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"XS" = (
+/obj/machinery/duct,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"XV" = (
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"XX" = (
+/obj/structure/spider/stickyweb,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
+"Yj" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/unlocked,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"Yn" = (
+/mob/living/basic/trooper/russian{
+	name = "Russian Crewmember";
+	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole."
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Yo" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Yq" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Ys" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"YC" = (
+/obj/machinery/duct,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"YG" = (
+/mob/living/basic/trooper/russian/ranged/officer,
+/obj/structure/chair/comfy/shuttle/tactical,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
+"YO" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/delivery/red,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Zh" = (
+/obj/machinery/door/airlock/medical/glass{
+	name = "Infirmary"
+	},
+/turf/open/floor/iron/white/smooth_half{
+	dir = 8
+	},
+/area/shuttle/ruin/soviet_flagship/infirmary)
+"Zq" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/delivery/white,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Zr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Zt" = (
+/obj/effect/turf_decal/stripes/line,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Zx" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"ZA" = (
+/turf/closed/wall,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"ZC" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/mineral/plastitanium/red,
+/area/shuttle/ruin/soviet_flagship/docking_port)
+"ZE" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"ZG" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/spider/giant/hunter/scrawny,
+/obj/structure/spider/stickyweb,
+/turf/open/floor/iron/smooth_large,
+/area/shuttle/ruin/soviet_flagship/security)
+"ZT" = (
+/obj/machinery/light/small/directional/south,
+/obj/machinery/duct,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/crew)
+"ZV" = (
+/turf/closed/wall/r_wall/rust,
+/area/shuttle/ruin/soviet_flagship/bar)
+"ZW" = (
+/obj/machinery/duct,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/catwalk_floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 
 (1,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+WV
+ih
+Mp
+WV
+ho
+WV
+ih
+Mp
+WV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (2,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+WV
+ih
+Mp
+WV
+xd
+xd
+xi
+St
+vC
+xd
+xd
+WV
+ih
+Mp
+WV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (3,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+ih
+Mp
+WV
+xd
+xd
+WV
+co
+co
+Pk
+jf
+uQ
+zb
+Mi
+WV
+xd
+xd
+WV
+ih
+Mp
+WV
+tV
+tV
+tV
+tV
+tV
 "}
 (4,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+xd
+xd
+WV
+GB
+ta
+hB
+co
+hB
+vQ
+JT
+Oh
+hB
+hB
+ct
+zb
+il
+WV
+xd
+xd
+WV
+tV
+tV
+tV
+tV
+tV
 "}
 (5,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+pe
+pe
+ly
+zJ
+nj
+ON
+co
+WV
+Ov
+ug
+WV
+WV
+sq
+sq
+JH
+il
+rk
+JX
+JX
+WV
+tV
+tV
+tV
+tV
+tV
 "}
 (6,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+UW
+EQ
+Ys
+nc
+LK
+zJ
+WV
+WV
+WV
+WV
+uE
+ci
+fV
+WV
+zi
+Rd
+JH
+il
+Zq
+zS
+zS
+WV
+tV
+tV
+tV
+tV
+tV
 "}
 (7,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+dy
+Mo
+Hx
+BH
+WV
+xe
+VN
+UF
+pZ
+bL
+qT
+zi
+HF
+Rd
+gW
+yc
+fc
+zS
+Dl
+WV
+yq
+tV
+tV
+tV
+tV
 "}
 (8,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+gm
+ei
+Hx
+GB
+WV
+WV
+WV
+WV
+WV
+eI
+WV
+WV
+Rd
+Rd
+sq
+or
+YO
+HJ
+HJ
+WV
+WV
+tV
+tV
+tV
+tV
 "}
 (9,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+Ry
+VM
+sc
+Hx
+GB
+hB
+ct
+hB
+Xs
+dJ
+Hr
+GP
+jC
+ct
+hB
+sq
+lI
+Pz
+EM
+ig
+Tu
+Ry
+tV
+tV
+tV
+tV
 "}
 (10,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+Ry
+iM
+pP
+jT
+GB
+ta
+IC
+PV
+ro
+rU
+sM
+fQ
+wJ
+zb
+hB
+hB
+ui
+JA
+bv
+ZE
+Fk
+Ry
+tV
+tV
+tV
+tV
 "}
 (11,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+NG
+Of
+sC
+kW
+FD
+ta
+BR
+Tw
+WV
+WV
+WV
+WV
+Sf
+Sf
+Sf
+Sf
+Sf
+Sf
+Sf
+Sf
+Sf
+Sf
+tV
+tV
+tV
+tV
 "}
 (12,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+NG
+cl
+Yq
+ye
+Ah
+ye
+zn
+fG
+NG
+OD
+OD
+ca
+Sf
+rH
+AN
+Fp
+Sf
+tj
+AN
+AN
+do
+Sf
+xU
+xU
+xU
+xU
 "}
 (13,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+NG
+NG
+OR
+NG
+NG
+NG
+wL
+NG
+NG
+CS
+Dr
+aN
+Sf
+rH
+AN
+Fp
+Sf
+si
+Pd
+AN
+IG
+rQ
+PK
+PK
+PK
+eZ
 "}
 (14,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+NG
+Mz
+nm
+ED
+NG
+wi
+qg
+pS
+NG
+OD
+Dr
+Yn
+Sf
+oT
+mD
+Zr
+rB
+Zr
+uL
+bW
+Fb
+Sf
+xU
+xU
+xU
+xU
 "}
 (15,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+ku
+nm
+bb
+WV
+Mw
+qg
+ph
+WV
+OD
+cL
+cL
+nr
+sd
+sd
+sd
+nr
+sd
+sd
+xw
+Hu
+Sf
+tV
+tV
+tV
+tV
 "}
 (16,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+gg
+Tj
+Xq
+WV
+KP
+dR
+pQ
+wP
+iQ
+Vb
+iR
+Sf
+Ms
+Nm
+gN
+rB
+gN
+OP
+EF
+Fc
+Sf
+xU
+xU
+xU
+xU
 "}
 (17,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+nK
+ET
+CF
+WV
+RD
+Kc
+Bc
+WV
+Gs
+XS
+iR
+Sf
+rH
+AN
+Fp
+Sf
+ze
+AN
+AN
+IG
+DP
+PK
+PK
+PK
+cB
 "}
 (18,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+WV
+vR
+ET
+LQ
+OR
+Lg
+Nc
+yr
+WV
+iR
+XS
+iR
+Sf
+rH
+AN
+Fp
+Sf
+AN
+AN
+AN
+yI
+Sf
+xU
+xU
+xU
+xU
 "}
 (19,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+NG
+vR
+Tj
+Tj
+NG
+zM
+cF
+qr
+WV
+iR
+XS
+Gs
+Sf
+Sf
+Sf
+Ch
+Sf
+Sf
+Sf
+Sf
+Sf
+Sf
+tV
+tV
+tV
+tV
 "}
 (20,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+JZ
+bA
+bA
+bA
+bA
+bA
+bA
+bA
+DX
+DX
+Gs
+XS
+iR
+Rm
+ZA
+ZA
+ZA
+ZA
+qt
+qV
+Wl
+UK
+tV
+tV
+tV
+tV
+tV
 "}
 (21,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+bA
+bA
+SL
+SL
+BE
+BE
+Xr
+Ss
+Ss
+cc
+iR
+XS
+Yn
+ib
+ZA
+vu
+BS
+ZA
+ZA
+SM
+ZA
+UK
+UK
+tV
+tV
+tV
+tV
 "}
 (22,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+DX
+sf
+sf
+DX
+QR
+wr
+mq
+BE
+iY
+Xw
+uj
+Ss
+HU
+iR
+XS
+iR
+ZA
+ZA
+wq
+Wn
+jW
+ZA
+eg
+ZA
+VD
+UK
+UK
+tV
+tV
+tV
 "}
 (23,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+ix
+tH
+tH
+cn
+SL
+SL
+rm
+Ss
+ZC
+vr
+BY
+Ss
+cS
+Aa
+XS
+iR
+ZA
+LG
+qP
+qP
+ZA
+ZA
+wH
+mp
+OX
+cp
+UK
+tV
+tV
+tV
 "}
 (24,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+DX
+sf
+sf
+DX
+DN
+DH
+Dc
+Ss
+ZC
+rr
+WH
+Ss
+HU
+iR
+XS
+iR
+ZA
+ZA
+ZA
+qU
+ZA
+jR
+pW
+ZA
+ZA
+ZA
+UK
+UK
+tV
+tV
 "}
 (25,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+DX
+DX
+Yj
+qn
+oJ
+Ma
+Rb
+NE
+Ss
+NC
+iR
+XS
+iR
+ZA
+QS
+Fm
+ok
+ZA
+PH
+gb
+gc
+ZA
+HK
+uW
+UK
+tV
+tV
 "}
 (26,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+az
+sf
+ac
+ac
+UB
+sH
+jj
+oJ
+oJ
+NC
+iR
+XS
+iR
+ZA
+sI
+ok
+zh
+ZA
+QQ
+El
+ed
+HS
+pU
+fU
+OY
+tV
+tV
 "}
 (27,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+DX
+iZ
+sG
+NC
+NC
+NC
+NC
+NC
+NC
+iR
+XS
+iR
+ZA
+bK
+ok
+Vr
+ZA
+Je
+cf
+xv
+ZA
+aj
+cp
+UK
+tV
+tV
 "}
 (28,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+DX
+DX
+NC
+NC
+fw
+GV
+yK
+of
+mP
+iR
+XS
+iR
+ZA
+ZA
+Kx
+ZA
+ZA
+kn
+Tp
+Tp
+Tp
+Tp
+Tp
+Tp
+tV
+tV
 "}
 (29,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+LM
+eq
+hj
+tL
+dO
+Pt
+xH
+mP
+iR
+XS
+OD
+ZA
+fB
+ok
+VB
+jB
+pM
+Tp
+FR
+cV
+ST
+sh
+cZ
+tV
+tV
 "}
 (30,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+ie
+ie
+LM
+IZ
+Pt
+dO
+dO
+dO
+DB
+GN
+iR
+XS
+PG
+ZA
+qv
+vc
+vc
+vc
+ne
+wC
+ST
+ST
+YG
+To
+cZ
+tV
+tV
 "}
 (31,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+ie
+dW
+Ai
+Xc
+dO
+IX
+iO
+Wr
+Ne
+Zh
+iR
+XS
+oh
+zr
+qv
+bp
+NA
+FB
+ne
+Tp
+ST
+ST
+Vu
+cZ
+cZ
+tV
+tV
 "}
 (32,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+ie
+kX
+WU
+tE
+dO
+Xc
+mP
+mP
+mP
+mP
+iR
+XS
+XQ
+SY
+UT
+dF
+tv
+rO
+Ts
+Tp
+Xg
+nO
+bj
+cZ
+tV
+tV
+tV
 "}
 (33,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+zj
+zj
+Kr
+Xc
+Pt
+sT
+mP
+oz
+RF
+mP
+iR
+XS
+Vv
+Ep
+Ps
+iy
+by
+jp
+vc
+Tp
+cD
+sb
+cZ
+cZ
+tV
+tV
+tV
 "}
 (34,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+zj
+mP
+Fu
+MP
+Uy
+mP
+yA
+RF
+to
+Do
+XS
+GR
+ZA
+Ps
+Ps
+ps
+ps
+ps
+Tp
+NZ
+rV
+cZ
+tV
+tV
+tV
+tV
 "}
 (35,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+jD
+Hp
+Hp
+Hp
+Hp
+Hp
+Hp
+Hp
+Hp
+iR
+XS
+iR
+ZA
+gY
+Gb
+ok
+ok
+OK
+Tp
+jP
+cZ
+cZ
+tV
+tV
+tV
+tV
 "}
 (36,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+jD
+ep
+Co
+ep
+sB
+js
+MW
+js
+Hp
+iR
+XS
+iR
+UK
+UK
+UK
+MK
+UK
+lq
+Tp
+cZ
+cZ
+tV
+tV
+tV
+tV
+tV
 "}
 (37,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+mQ
+mQ
+Xp
+RP
+xV
+xV
+xV
+bV
+HQ
+Hp
+vA
+XS
+Yo
+Nj
+Ra
+Ra
+Ra
+mA
+Kl
+NF
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (38,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+mQ
+EZ
+ep
+Jt
+OQ
+OQ
+OQ
+AV
+js
+Hp
+vA
+ZW
+iR
+It
+VI
+VI
+VI
+NF
+Kl
+bG
+tU
+tU
+lb
+tV
+tV
+tV
+tV
 "}
 (39,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+mQ
+EZ
+DT
+FK
+FK
+dC
+FK
+FK
+gF
+Em
+IJ
+ZW
+DG
+vF
+gJ
+vq
+gJ
+qb
+Kl
+NF
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (40,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+mQ
+mQ
+EZ
+ke
+RP
+xV
+xV
+xV
+bV
+jx
+Hp
+vA
+ZW
+iR
+It
+VI
+VI
+VI
+NF
+Kl
+NF
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (41,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+mQ
+cu
+EZ
+XV
+Jt
+OQ
+pg
+OQ
+AV
+ZT
+Hp
+vA
+XS
+Kn
+Ua
+av
+Vy
+av
+No
+Kl
+NF
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (42,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+mQ
+Gv
+VW
+pi
+AZ
+GU
+gB
+jx
+Oq
+jx
+EZ
+iR
+XS
+iR
+pf
+Fa
+Fa
+Fa
+pf
+LU
+pf
+tU
+tU
+lb
+tV
+tV
+tV
+tV
 "}
 (43,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+ZV
+ZV
+qo
+qo
+qo
+yS
+yS
+yS
+qo
+qo
+qo
+qo
+iR
+XS
+iR
+pf
+CU
+Ez
+ch
+ch
+nD
+NF
+tV
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (44,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+hN
+ZV
+aR
+Xi
+bS
+pX
+FH
+Gy
+QU
+QU
+QU
+QU
+qo
+iR
+XS
+iR
+pf
+CU
+RG
+ch
+pf
+pf
+pf
+Fa
+tV
+tV
+tV
+tV
+tV
+tV
 "}
 (45,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+hN
+ex
+PN
+tl
+nG
+pX
+pp
+Gy
+QU
+QU
+QU
+QU
+qo
+iR
+XS
+cL
+ec
+Lk
+Lk
+Lk
+Fa
+AO
+sn
+Fa
+Fa
+ot
+tV
+tV
+tV
+tV
 "}
 (46,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+hN
+jy
+PN
+tl
+ux
+SK
+Pu
+Gy
+QU
+QU
+QU
+QU
+TB
+iR
+st
+iR
+pf
+Rp
+Rp
+Rp
+Pq
+yF
+ZG
+ir
+pf
+Fa
+tV
+tV
+tV
+tV
 "}
 (47,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+hN
+hN
+wu
+hu
+SK
+SK
+Pu
+Gy
+QU
+QU
+QU
+QU
+QU
+iR
+YC
+OD
+pf
+CU
+qc
+CU
+pf
+kJ
+Ao
+pf
+pf
+Fa
+Fa
+tV
+tV
+tV
 "}
 (48,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+hN
+hN
+hN
+Bf
+SK
+Pu
+Gy
+QU
+QU
+QU
+QU
+QU
+cA
+WA
+OD
+pf
+pf
+pf
+pf
+pf
+Fa
+Fa
+pf
+NV
+BF
+Fa
+Fa
+tV
+tV
 "}
 (49,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+hN
+hN
+SK
+Pu
+Gy
+QU
+sj
+QU
+QU
+TB
+iR
+nd
+nd
+CR
+hl
+km
+Mr
+WI
+WI
+WI
+gA
+LN
+LN
+Qp
+Mr
+tV
+tV
 "}
 (50,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+hN
+hN
+yS
+XK
+QU
+QU
+QU
+QU
+yS
+iR
+Ca
+OD
+sQ
+xZ
+Ml
+Mr
+WI
+WI
+WI
+WI
+WI
+WI
+WI
+bM
+tV
+tV
 "}
 (51,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+ZV
+ZV
+QU
+QU
+QU
+QU
+QU
+yS
+iR
+ss
+OD
+sQ
+CG
+Qt
+Mr
+WI
+WI
+dN
+yw
+yw
+sa
+WI
+bM
+tV
+tV
 "}
 (52,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+ZV
+QU
+QU
+QU
+QU
+QU
+yS
+iR
+ss
+iR
+sQ
+Ac
+Ml
+Mr
+Mr
+Mr
+Mr
+Lx
+Lx
+bM
+bM
+bM
+tV
+tV
 "}
 (53,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+ZV
+ZV
+yS
+qo
+QU
+qo
+qo
+sg
+ss
+iR
+sQ
+NJ
+Pr
+Mr
+IQ
+WI
+Uf
+fL
+LN
+Qp
+id
+bM
+tV
+tV
 "}
 (54,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+ln
+ZV
+QU
+QU
+QU
+QU
+yS
+OD
+ss
+iR
+sQ
+sQ
+Mr
+Mr
+EE
+WI
+WI
+WE
+Rw
+Rw
+KZ
+Mr
+tV
+tV
 "}
 (55,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+QU
+Nq
+QU
+QU
+yS
+OD
+Ih
+iR
+iR
+iR
+nC
+WI
+WI
+WI
+WE
+WE
+WI
+WI
+Tr
+Mr
+tV
+tV
 "}
 (56,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+wV
+FP
+QU
+QU
+qo
+oP
+Ih
+Ih
+ss
+ss
+gV
+WE
+WE
+WE
+WE
+WI
+WI
+Qm
+tB
+Ag
+tV
+tV
 "}
 (57,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+eB
+QU
+QU
+qo
+OD
+OD
+Ih
+IF
+iR
+Mr
+Az
+yw
+UO
+yw
+yw
+Bp
+sZ
+Tr
+bM
+tV
+tV
 "}
 (58,1,1) = {"
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+wV
+JN
+pE
+zA
+zA
+CE
+UC
+CE
+Mr
+Mr
+Mr
+VE
+MA
+VE
+VE
+Mr
+Mr
+bM
+bM
+tV
+tV
 "}
 (59,1,1) = {"
-a
-M
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-g
-X
-v
-v
-v
-v
-C
-g
-g
-O
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+Oa
+gP
+pE
+zA
+mF
+Vk
+uD
+BJ
+Mr
+Xx
+Ge
+wS
+wS
+Ds
+Ds
+rj
+cG
+dq
+Mr
+tV
+tV
 "}
 (60,1,1) = {"
-a
-M
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-g
-d
-w
-w
-x
-w
-t
-g
-g
-e
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+wV
+Nq
+zA
+fz
+hS
+IO
+XX
+bM
+Xx
+Zt
+uh
+mE
+uF
+mE
+Au
+cG
+Gj
+bM
+tV
+tV
 "}
 (61,1,1) = {"
-a
-M
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-g
-Z
-w
-Y
-w
-w
-t
-V
-g
-e
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+JN
+CE
+aE
+zQ
+dG
+FX
+bM
+Ir
+NO
+uh
+Ia
+mE
+mE
+Au
+cG
+Zx
+bM
+tV
+tV
 "}
 (62,1,1) = {"
-a
-M
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-g
-d
-w
-w
-h
-w
-o
-g
-g
-e
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+wV
+CE
+Vk
+lt
+se
+Vk
+bM
+Xx
+Zt
+uh
+mE
+XR
+mE
+OI
+cG
+Zx
+bM
+tV
+tV
 "}
 (63,1,1) = {"
-a
-M
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-O
-g
-d
-j
-J
-J
-H
-t
-g
-g
-O
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+wV
+li
+gD
+gn
+jI
+SF
+Mr
+SX
+Zt
+JG
+py
+vf
+wM
+Au
+cG
+mX
+Mr
+tV
+tV
 "}
 (64,1,1) = {"
-a
-a
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-O
-g
-d
-w
-J
-w
-w
-t
-g
-g
-O
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+li
+HR
+kr
+Qv
+kd
+Mr
+bx
+Av
+vf
+vf
+mE
+mE
+Au
+cG
+mX
+Mr
+tV
+tV
 "}
 (65,1,1) = {"
-a
-a
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-g
-d
-u
-w
-Y
-w
-t
-g
-O
-O
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+li
+li
+HR
+hS
+HE
+bM
+ef
+Zt
+rN
+uR
+Ia
+mE
+Au
+qF
+Mr
+Mr
+tV
+tV
 "}
 (66,1,1) = {"
-a
-a
-M
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-g
-d
-w
-Y
-j
-w
-o
-g
-O
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+pH
+pH
+HR
+lA
+bM
+ef
+Zt
+mE
+Ia
+JG
+mE
+OI
+cG
+Mr
+tV
+tV
+tV
 "}
 (67,1,1) = {"
-a
-a
-a
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-g
-d
-w
-h
-w
-c
-t
-O
-O
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+pH
+li
+Re
+bM
+ef
+Zt
+mE
+nM
+mE
+NP
+Au
+Mr
+Mr
+tV
+tV
+tV
 "}
 (68,1,1) = {"
-a
-a
-a
-M
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-O
-O
-d
-e
-D
-D
-e
-t
-O
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+li
+pH
+Mr
+Mr
+xj
+bM
+ER
+ER
+bM
+Au
+Mr
+tV
+tV
+tV
+tV
 "}
 (69,1,1) = {"
-a
-a
-a
-a
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-O
-e
-e
-N
-N
-e
-O
-e
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+Mr
+bM
+bM
+Ed
+Ed
+bM
+Mr
+bM
+tV
+tV
+tV
+tV
 "}
 (70,1,1) = {"
-a
-a
-a
-a
-M
-M
-M
-M
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-a
-e
-W
-W
-O
-a
-a
-a
-a
-a
-a
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tV
+tJ
+bM
+kQ
+kQ
+Mr
+Wp
+tV
+tV
+tV
+tV
+tV
 "}

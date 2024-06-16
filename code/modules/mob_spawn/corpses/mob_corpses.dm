@@ -199,6 +199,17 @@
 	head = /obj/item/clothing/head/helmet/alt
 	mask = /obj/item/clothing/mask/balaclava
 
+/obj/effect/mob_spawn/corpse/human/russian/ranged/trooper/lieutenant
+	name = "Russian Lieutenant Corpse"
+	outfit = /datum/outfit/russiancorpse/ranged/trooper/lieutenant
+
+/datum/outfit/russiancorpse/ranged/trooper/lieutenant
+	name = "Russian Lieutenant Corpse"
+	uniform = /obj/item/clothing/under/syndicate/rus_army
+	suit = /obj/item/clothing/suit/armor/vest
+	head = /obj/item/clothing/head/costume/ushanka/polar
+	mask = /obj/item/clothing/mask/gas
+
 
 /obj/effect/mob_spawn/corpse/human/russian/ranged/officer
 	name = "Russian Officer"
@@ -211,6 +222,17 @@
 	shoes = /obj/item/clothing/shoes/combat
 	ears = /obj/item/radio/headset
 	head = /obj/item/clothing/head/costume/ushanka
+
+/obj/effect/mob_spawn/corpse/human/russian/engineer
+	name = "Russian Engineer"
+	outfit = /datum/outfit/russiancorpse/engineer
+
+/datum/outfit/russiancorpse/engineer
+	name = "Russian Engineer Corpse"
+	gloves = /obj/item/clothing/gloves/color/fyellow/old
+	mask = /obj/item/clothing/mask/russian_balaclava
+	head = /obj/item/clothing/head/utility/hardhat/red
+	belt = /obj/item/storage/belt/utility/full
 
 
 /obj/effect/mob_spawn/corpse/human/wizard
