@@ -14,8 +14,18 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/obj/item/clothing/under/costume/soviet,
+/obj/item/clothing/head/costume/ushanka,
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
+"as" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
 "av" = (
 /obj/structure/lattice,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -46,6 +56,10 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/effect/mapping_helpers/apc/unlocked,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/box/lights/bulbs,
+/obj/item/storage/box/lights/tubes,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
 "aN" = (
@@ -55,9 +69,23 @@
 /turf/open/floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
 "aR" = (
-/obj/machinery/microwave,
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/knife/kitchen{
+	pixel_x = 16
+	},
+/obj/item/reagent_containers/condiment/sugar{
+	pixel_x = -9;
+	pixel_y = 14
+	},
+/obj/item/kitchen/rollingpin{
+	pixel_x = 8
+	},
+/obj/item/reagent_containers/condiment/enzyme{
+	layer = 5;
+	pixel_x = -5;
+	pixel_y = 6
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/shuttle/ruin/soviet_flagship/bar)
 "bb" = (
@@ -66,6 +94,15 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"bf" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/obj/structure/sign/warning/fire/directional/south,
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "bj" = (
 /obj/structure/table/reinforced,
@@ -135,7 +172,6 @@
 	},
 /obj/structure/window/spawner/directional/east,
 /obj/machinery/stasis,
-/obj/item/bedsheet/red,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/crew)
@@ -158,6 +194,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "ch" = (
@@ -176,6 +214,12 @@
 	},
 /turf/open/floor/engine/vacuum,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"cj" = (
+/obj/structure/window/reinforced/tinted/spawner/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/decal/cleanable/food/flour,
+/turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
 "cl" = (
 /obj/structure/sign/warning/electric_shock/directional/east,
 /obj/effect/decal/cleanable/dirt,
@@ -193,7 +237,7 @@
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron,
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "cp" = (
 /obj/item/bedsheet/hos{
@@ -202,8 +246,17 @@
 	},
 /obj/structure/bed,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/east,
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
+"cs" = (
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "ct" = (
 /obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/dirt,
@@ -221,8 +274,10 @@
 /turf/open/floor/iron/showroomfloor,
 /area/shuttle/ruin/soviet_flagship/crew)
 "cA" = (
-/turf/open/floor/catwalk_floor/iron,
-/area/shuttle/ruin/soviet_flagship/hallway)
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "cB" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/poddoor{
@@ -256,6 +311,13 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
+"cR" = (
+/obj/machinery/duct,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
 "cS" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Arrivals"
@@ -265,6 +327,12 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/docking_port)
+"cU" = (
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "cV" = (
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/light/small/directional/west,
@@ -277,6 +345,13 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/bridge)
+"df" = (
+/obj/machinery/atmospherics/components/trinary/mixer{
+	dir = 4;
+	name = "turbine gas mixer"
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
 "do" = (
 /obj/effect/turf_decal/stripes/corner,
 /turf/open/floor/iron/smooth,
@@ -317,6 +392,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
+"dH" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
 "dJ" = (
 /obj/machinery/button/door/directional/west{
 	id = "soviet_flagship_emergency_turbine_vent";
@@ -331,6 +413,10 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"dK" = (
+/obj/machinery/vending/sovietsoda,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "dN" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/machinery/button/door/directional/east{
@@ -354,6 +440,13 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/textured,
 /area/shuttle/ruin/soviet_flagship/infirmary)
+"eb" = (
+/obj/machinery/door/airlock/command/glass{
+	name = "Officer's Mess"
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "ec" = (
 /obj/machinery/door/airlock/hatch{
 	name = "Security"
@@ -367,6 +460,8 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "ef" = (
@@ -384,6 +479,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "ei" = (
@@ -399,17 +496,10 @@
 /turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/crew)
 "eq" = (
-/obj/item/storage/medkit/brute{
-	pixel_x = 3;
-	pixel_y = 3
-	},
-/obj/item/storage/medkit/fire{
-	pixel_x = -3;
-	pixel_y = -3
-	},
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/left,
 /obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/medical/medkit,
 /obj/effect/spawner/random/medical/medkit,
 /turf/open/floor/iron/white/smooth_corner,
 /area/shuttle/ruin/soviet_flagship/infirmary)
@@ -422,6 +512,7 @@
 /obj/item/food/meat/slab,
 /obj/item/food/meat/slab,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/showroomfloor,
 /area/shuttle/ruin/soviet_flagship/bar)
 "eB" = (
@@ -442,13 +533,20 @@
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
 "fc" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/effect/turf_decal/stripes/end,
+/obj/machinery/atmospherics/components/binary/valve{
+	name = "oxidizer loading valve"
 	},
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/turf_decal/delivery/white,
-/turf/open/floor/plating,
+/turf/open/floor/plating/reinforced/airless,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"ft" = (
+/obj/structure/cable,
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "fw" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -459,6 +557,7 @@
 /mob/living/basic/spider/giant/tarantula/scrawny,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
 "fB" = (
@@ -489,6 +588,7 @@
 /area/shuttle/ruin/soviet_flagship/engineering)
 "fU" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "fV" = (
@@ -499,11 +599,16 @@
 /area/shuttle/ruin/soviet_flagship/engineering)
 "gb" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "gc" = (
 /obj/effect/turf_decal/siding/wood/corner,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "gg" = (
@@ -525,6 +630,8 @@
 /obj/structure/spider/stickyweb,
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/lazarus_injector,
+/obj/structure/closet/crate/medical,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
 "gA" = (
@@ -543,6 +650,7 @@
 /mob/living/basic/spider/giant/nurse/scrawny,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
 "gF" = (
@@ -567,6 +675,7 @@
 "gP" = (
 /obj/effect/decal/cleanable/blood/old,
 /obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
 /turf/open/floor/iron/cafeteria,
 /area/shuttle/ruin/soviet_flagship/bar)
 "gV" = (
@@ -603,9 +712,16 @@
 	},
 /turf/open/floor/plating/reinforced,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"hq" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "hu" = (
 /obj/machinery/door/window,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
 /turf/open/floor/iron/showroomfloor,
 /area/shuttle/ruin/soviet_flagship/bar)
 "hB" = (
@@ -629,6 +745,7 @@
 	name = "ivan's bed";
 	desc = "How are you supposed to fit a bear in this, anyway?"
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "ie" = (
@@ -639,12 +756,11 @@
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/infirmary)
 "ig" = (
-/obj/machinery/atmospherics/components/trinary/mixer{
-	dir = 1;
-	name = "turbine gas mixer"
-	},
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/machinery/button/door/directional/south{
+	id = "soviet_flagship_turbine_fire_cover_two"
+	},
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "ih" = (
 /obj/machinery/power/shuttle_engine/propulsion/left{
@@ -662,6 +778,7 @@
 /obj/structure/spider/stickyweb,
 /obj/effect/spawner/random/exotic/technology,
 /obj/effect/spawner/random/exotic/syndie,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/ruin/soviet_flagship/security)
 "ix" = (
@@ -669,7 +786,9 @@
 	shuttle_areas = list(/area/shuttle/ruin/soviet_flagship);
 	shuttle_id = "soviet_flagship";
 	dir = 2;
-	name = "PWS Khranitel Revolyutsii"
+	name = "PWS Khranitel Revolyutsii";
+	preferred_direction = 4;
+	port_direction = 8
 	},
 /obj/machinery/door/airlock/external/glass/ruin,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
@@ -689,6 +808,10 @@
 /obj/machinery/light/small/directional/north,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"iN" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/closed/wall/rust,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "iO" = (
 /turf/open/floor/iron/white/smooth_half{
@@ -721,6 +844,11 @@
 /obj/machinery/vending/sovietsoda,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/docking_port)
+"jc" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "jf" = (
 /obj/machinery/power/turbine/core_rotor{
 	dir = 8;
@@ -767,7 +895,7 @@
 /area/shuttle/ruin/soviet_flagship/bar)
 "jB" = (
 /mob/living/basic/trooper/russian/ranged/soldier/lieutenant{
-	loot = list(/obj/effect/mob_spawn/corpse/human/russian/ranged/trooper,/obj/item/gun/ballistic/rifle/boltaction, /obj/item/paper/fluff/ruins/soviet_flagship/bear_cannibal)
+	loot = list(/obj/effect/mob_spawn/corpse/human/russian/ranged/trooper/lieutenant,/obj/item/gun/ballistic/rifle/boltaction, /obj/item/paper/fluff/ruins/soviet_flagship/bear_cannibal)
 	},
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 8
@@ -851,6 +979,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "kr" = (
@@ -860,6 +990,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
+"kt" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/structure/cable,
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/security)
 "ku" = (
 /obj/structure/closet/crate,
 /obj/item/stack/sheet/mineral/plasma/thirty,
@@ -868,12 +1006,18 @@
 /obj/item/stack/sheet/glass/fifty,
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/plasteel/twenty,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"kI" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "kJ" = (
 /obj/structure/closet/syndicate,
 /obj/effect/spawner/random/maintenance/three,
 /obj/structure/spider/stickyweb,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/ruin/soviet_flagship/security)
 "kQ" = (
@@ -947,6 +1091,10 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"lO" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
 "mp" = (
 /obj/machinery/door/airlock/command{
 	name = "First Officer's Quarters"
@@ -956,6 +1104,8 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "mq" = (
@@ -998,6 +1148,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
+"mG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "mP" = (
 /turf/closed/wall,
 /area/shuttle/ruin/soviet_flagship/infirmary)
@@ -1024,12 +1179,16 @@
 /area/shuttle/ruin/soviet_flagship/hallway)
 "ne" = (
 /obj/machinery/duct,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "nj" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/turf/open/floor/iron,
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "nm" = (
 /obj/structure/cable,
@@ -1048,7 +1207,7 @@
 /obj/effect/mapping_helpers/damaged_window{
 	integrity_damage_max = 0.5
 	},
-/obj/structure/window/reinforced/fulltile,
+/obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "nD" = (
@@ -1081,6 +1240,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/bridge)
+"oe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/obj/machinery/button/door/directional/north{
+	id = "soviet_flagship_turbine_fire_cover_two"
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
 "of" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -1095,6 +1262,7 @@
 /area/shuttle/ruin/soviet_flagship/hallway)
 "ok" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "or" = (
@@ -1120,6 +1288,13 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/infirmary)
+"oG" = (
+/obj/effect/turf_decal/stripes/corner{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "oJ" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -1141,6 +1316,12 @@
 /obj/effect/mapping_helpers/airalarm/unlocked,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
+"oX" = (
+/obj/effect/turf_decal/bot_white,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "pe" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/layer4{
 	dir = 4
@@ -1157,9 +1338,6 @@
 	dir = 4
 	},
 /obj/structure/window/spawner/directional/west,
-/obj/item/bedsheet/red{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/frame/machine/secured,
 /obj/item/circuitboard/machine/stasis,
@@ -1204,10 +1382,16 @@
 /obj/structure/frame/machine/secured,
 /turf/open/floor/engine,
 /area/shuttle/ruin/soviet_flagship/munitions)
+"pB" = (
+/obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/catwalk_floor/iron_smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "pE" = (
 /obj/structure/chair{
 	dir = 1
 	},
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria,
 /area/shuttle/ruin/soviet_flagship/bar)
 "pH" = (
@@ -1218,6 +1402,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "pP" = (
@@ -1246,6 +1432,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
+/obj/item/stack/sheet/mineral/wood/fifty,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "pU" = (
@@ -1253,6 +1440,8 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "pW" = (
@@ -1260,6 +1449,8 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "pX" = (
@@ -1291,6 +1482,7 @@
 /obj/item/clothing/head/costume/ushanka,
 /obj/item/storage/toolbox/ammobox/strilka310,
 /obj/item/clothing/under/syndicate/rus_army,
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/security)
 "qg" = (
@@ -1300,6 +1492,14 @@
 /obj/machinery/duct,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"ql" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/machinery/light/small/directional/south,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "qn" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable,
@@ -1323,19 +1523,31 @@
 	},
 /obj/structure/bed,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/wood/parquet,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "qv" = (
 /obj/machinery/duct,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "qF" = (
 /obj/effect/mapping_helpers/broken_floor,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/munitions)
+"qM" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
 "qP" = (
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/machinery/airalarm/directional/east,
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "qT" = (
@@ -1349,13 +1561,24 @@
 /obj/machinery/door/airlock/command/glass{
 	name = "Ship Monitoring"
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "qV" = (
 /obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/parquet,
 /area/shuttle/ruin/soviet_flagship/command_wing)
+"qY" = (
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "rj" = (
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
@@ -1373,10 +1596,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/obj/machinery/portable_atmospherics/canister/nitrogen,
-/obj/effect/turf_decal/delivery,
-/obj/machinery/light/small/directional/west,
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/tank/oxygen,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "rm" = (
@@ -1448,6 +1668,7 @@
 /obj/effect/turf_decal/stripes/corner{
 	dir = 4
 	},
+/obj/machinery/light/small/directional/east,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "sb" = (
@@ -1503,7 +1724,6 @@
 	},
 /obj/effect/mapping_helpers/broken_machine,
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/mystery_box_item,
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/bridge)
 "si" = (
@@ -1513,6 +1733,9 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
 "sj" = (
+/obj/structure/chair{
+	dir = 4
+	},
 /mob/living/basic/trooper/russian/ranged/soldier,
 /turf/open/floor/iron/cafeteria,
 /area/shuttle/ruin/soviet_flagship/bar)
@@ -1538,6 +1761,7 @@
 	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole."
 	},
 /obj/machinery/duct,
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
 "sB" = (
@@ -1600,11 +1824,17 @@
 "sZ" = (
 /obj/item/paper/fluff/ruins/soviet_flagship/why_no_gun,
 /obj/structure/table/reinforced,
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "ta" = (
 /turf/open/floor/iron,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"th" = (
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/boarding_bay)
 "tj" = (
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/iron/smooth,
@@ -1632,11 +1862,20 @@
 	dir = 1
 	},
 /obj/effect/mapping_helpers/broken_machine,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "tE" = (
 /turf/open/floor/iron/white/smooth_half,
 /area/shuttle/ruin/soviet_flagship/infirmary)
+"tF" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
 "tH" = (
 /turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/docking_port)
@@ -1658,6 +1897,14 @@
 	dir = 1
 	},
 /area/shuttle/ruin/soviet_flagship/infirmary)
+"tQ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/duct,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
 "tU" = (
 /obj/structure/lattice,
 /turf/template_noop,
@@ -1687,6 +1934,10 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/ruin/soviet_flagship/docking_port)
+"uo" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "ux" = (
 /obj/machinery/chem_dispenser/drinks,
 /obj/structure/table/wood,
@@ -1741,9 +1992,17 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
+"uY" = (
+/obj/effect/turf_decal/siding/wood,
+/obj/structure/table/wood,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
 "vc" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/duct,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "vf" = (
@@ -1793,8 +2052,8 @@
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/obj/machinery/light/small/directional/east,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stack/cable_coil/five,
 /turf/open/floor/engine,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "vR" = (
@@ -1803,6 +2062,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"we" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "wi" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/suit_storage_unit/spaceruin,
@@ -1816,7 +2080,6 @@
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "wr" = (
-/mob/living/basic/trooper/russian/ranged/soldier,
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
@@ -1831,6 +2094,9 @@
 	name = "Bridge"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/bridge)
 "wH" = (
@@ -1838,6 +2104,8 @@
 	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "wJ" = (
@@ -1908,6 +2176,7 @@
 /obj/structure/window/reinforced/plasma/spawner/directional/north,
 /obj/effect/turf_decal/stripes/line,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/stack/sheet/iron/five,
 /turf/open/floor/engine,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "xj" = (
@@ -1929,6 +2198,19 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
+"xG" = (
+/obj/item/bedsheet/hos{
+	name = "soviet bedsheet";
+	desc = "For the Motherland!"
+	},
+/obj/structure/bed,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/wood/tile,
+/area/shuttle/ruin/soviet_flagship/command_wing)
 "xH" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
@@ -1944,7 +2226,6 @@
 	},
 /obj/structure/window/spawner/directional/east,
 /obj/machinery/stasis,
-/obj/item/bedsheet/red,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/crew)
@@ -1955,6 +2236,14 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/hallway)
+"yb" = (
+/obj/structure/cable,
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "yc" = (
 /mob/living/basic/trooper/russian{
 	name = "Russian Crewmember";
@@ -1984,6 +2273,7 @@
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "yw" = (
@@ -2020,6 +2310,12 @@
 "yS" = (
 /turf/closed/wall,
 /area/shuttle/ruin/soviet_flagship/bar)
+"yV" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
 "zb" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/burnt_floor,
@@ -2071,7 +2367,7 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
 	},
-/turf/open/floor/iron,
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "zM" = (
 /obj/structure/filingcabinet,
@@ -2102,9 +2398,7 @@
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
 "zS" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/turf_decal/delivery/white,
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Aa" = (
@@ -2149,6 +2443,10 @@
 /obj/item/storage/box/rubbershot,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/ruin/soviet_flagship/security)
+"At" = (
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "Au" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 1
@@ -2167,6 +2465,7 @@
 	dir = 8
 	},
 /obj/effect/mapping_helpers/broken_machine,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "AN" = (
@@ -2188,9 +2487,6 @@
 /obj/machinery/stasis{
 	dir = 4
 	},
-/obj/item/bedsheet/red{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/crew)
@@ -2210,6 +2506,9 @@
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Bf" = (
 /obj/machinery/vending/boozeomat/all_access,
+/obj/machinery/airalarm/directional/east,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/bar)
 "Bp" = (
@@ -2221,6 +2520,15 @@
 	id = "soviet_flagship_muni_gunbay";
 	name = "Gunnery Bay Access"
 	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"Bx" = (
+/obj/structure/table/reinforced,
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "BE" = (
@@ -2276,6 +2584,28 @@
 /obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
+"Cb" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Cc" = (
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
+"Cd" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Cg" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "Ch" = (
 /turf/closed/wall/r_wall,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
@@ -2291,6 +2621,7 @@
 /obj/machinery/power/smes/engineering,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/airalarm/directional/south,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "CG" = (
@@ -2326,12 +2657,19 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron,
 /area/shuttle/ruin/soviet_flagship/docking_port)
-"Dl" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/turf_decal/delivery/white,
-/obj/machinery/light/small/directional/south,
+"Dj" = (
+/obj/machinery/light/small/directional/east,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Dl" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Do" = (
 /obj/machinery/duct,
@@ -2358,6 +2696,16 @@
 /obj/effect/spawner/random/medical/minor_healing,
 /turf/open/floor/iron/white/smooth_half,
 /area/shuttle/ruin/soviet_flagship/infirmary)
+"DD" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/structure/table/reinforced,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/open/floor/iron/dark,
+/area/shuttle/ruin/soviet_flagship/command_wing)
 "DG" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -2403,6 +2751,8 @@
 "El" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Em" = (
@@ -2424,15 +2774,18 @@
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Ez" = (
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/security)
 "ED" = (
 /obj/structure/table/reinforced,
+/obj/machinery/cell_charger,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "EE" = (
 /obj/machinery/vending/sovietsoda,
 /obj/effect/mapping_helpers/broken_machine,
+/obj/machinery/light/small/directional/north,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "EF" = (
@@ -2498,6 +2851,8 @@
 "Fm" = (
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Fp" = (
@@ -2542,8 +2897,8 @@
 /turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/crew)
 "FP" = (
-/obj/item/reagent_containers/cup/glass/bottle/vodka,
 /obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria,
 /area/shuttle/ruin/soviet_flagship/bar)
 "FR" = (
@@ -2556,11 +2911,13 @@
 /obj/effect/mapping_helpers/broken_floor,
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/spawner/random/trash/bin,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
 "Gb" = (
 /obj/machinery/light/small/directional/east,
 /obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Ge" = (
@@ -2570,6 +2927,7 @@
 	dir = 8
 	},
 /obj/structure/cable,
+/obj/machinery/light/small/directional/west,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "Gj" = (
@@ -2581,6 +2939,12 @@
 /obj/effect/mapping_helpers/burnt_floor,
 /turf/open/floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
+"Gt" = (
+/obj/machinery/atmospherics/components/tank/plasma{
+	dir = 4
+	},
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/engineering)
 "Gv" = (
 /obj/machinery/shower/directional/west,
 /obj/structure/sink/directional/south,
@@ -2634,6 +2998,11 @@
 	},
 /turf/open/floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
+"GS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/effect/mapping_helpers/burnt_floor,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
 "GU" = (
 /obj/machinery/duct,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2663,6 +3032,7 @@
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Hu" = (
 /obj/structure/table/reinforced,
+/obj/machinery/light/small/directional/south,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
 "Hx" = (
@@ -2693,9 +3063,10 @@
 /turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "HJ" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
 /obj/machinery/portable_atmospherics/canister/plasma,
-/obj/effect/turf_decal/delivery/red,
-/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "HK" = (
@@ -2704,6 +3075,9 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "HQ" = (
@@ -2728,12 +3102,19 @@
 	},
 /obj/effect/turf_decal/siding/wood,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "HU" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/docking_port)
+"HY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/wood,
+/area/shuttle/ruin/soviet_flagship/bar)
 "Ia" = (
 /obj/structure/frame/machine/secured,
 /turf/open/floor/engine,
@@ -2765,9 +3146,8 @@
 /area/shuttle/ruin/soviet_flagship/engineering)
 "IF" = (
 /mob/living/basic/bear/russian{
-	faction = list("russian","neutral");
 	name = "Ivan";
-	desc = "The particularly-well-trained ammunition hauler of the PWS Khranitel Revolyutsii's munitions department. Doesn't seem to have much of a job right now other than watching the spiders."
+	desc = "The particularly-well-trained ammunition hauler of the PWS Khranitel Revolyutsii's munitions department."
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
@@ -2796,6 +3176,11 @@
 /obj/item/paperwork/ancient,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
+"IS" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "IX" = (
 /turf/open/floor/iron/white/smooth_corner,
 /area/shuttle/ruin/soviet_flagship/infirmary)
@@ -2809,11 +3194,18 @@
 /obj/effect/spawner/random/medical/minor_healing,
 /turf/open/floor/iron/white/smooth_half,
 /area/shuttle/ruin/soviet_flagship/infirmary)
+"Jb" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "Je" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Jt" = (
@@ -2822,9 +3214,6 @@
 	},
 /obj/structure/window/spawner/directional/west,
 /obj/machinery/stasis{
-	dir = 4
-	},
-/obj/item/bedsheet/red{
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
@@ -2850,15 +3239,16 @@
 /area/shuttle/ruin/soviet_flagship/bar)
 "JT" = (
 /obj/structure/frame/machine/secured,
-/obj/item/circuitboard/computer/turbine_computer,
 /obj/structure/cable,
 /obj/effect/decal/cleanable/dirt,
+/obj/item/circuitboard/machine/turbine_compressor,
 /turf/open/floor/plating/reinforced,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "JX" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
-/obj/effect/turf_decal/delivery,
-/obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/machinery/portable_atmospherics/canister/oxygen,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "JZ" = (
@@ -2903,8 +3293,15 @@
 	name = "Foreman"
 	},
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
+"KB" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/structure/sign/warning/fire/directional/north,
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
 "KP" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
@@ -2925,6 +3322,7 @@
 /obj/item/food/meat/slab,
 /obj/item/reagent_containers/cup/glass/bottle/vodka,
 /obj/item/food/meat/slab/bear,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "Lg" = (
@@ -3001,8 +3399,7 @@
 /area/shuttle/ruin/soviet_flagship/docking_port)
 "Mi" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/spawner/random/engineering/atmospherics_portable,
-/turf/open/floor/iron,
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Ml" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3064,6 +3461,14 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/infirmary)
+"MQ" = (
+/obj/machinery/light/small/directional/west,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "MW" = (
 /obj/machinery/light/small/directional/west,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -3178,6 +3583,7 @@
 	name = "Russian Captain"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/airalarm/directional/north,
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/bridge)
 "Oa" = (
@@ -3191,6 +3597,15 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/bar)
+"Oc" = (
+/obj/structure/cable,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Oe" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "Of" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -3205,7 +3620,6 @@
 	dir = 1
 	},
 /obj/item/turbine_parts/compressor,
-/obj/machinery/light/small/directional/east,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/engine,
 /area/shuttle/ruin/soviet_flagship/engineering)
@@ -3241,8 +3655,11 @@
 "ON" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
-/obj/machinery/light/small/directional/east,
-/turf/open/floor/iron,
+/obj/machinery/door/poddoor/shutters{
+	id = "soviet_flagship_turbine_fire_cover_one";
+	dir = 1
+	},
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "OP" = (
 /obj/effect/turf_decal/stripes/line{
@@ -3261,9 +3678,6 @@
 /obj/machinery/stasis{
 	dir = 4
 	},
-/obj/item/bedsheet/red{
-	dir = 4
-	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/crew)
@@ -3274,12 +3688,27 @@
 	},
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"OS" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/cable,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
+"OU" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "OX" = (
 /obj/machinery/light/small/directional/east,
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "OY" = (
@@ -3293,6 +3722,14 @@
 /obj/structure/cable,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
+"Pf" = (
+/mob/living/basic/trooper/russian{
+	name = "Russian Crewmember";
+	desc = "A crewmember of the PWS Khranitel Revolyutsii. They're clutching a kitchen knife they probably stole.";
+	loot = list(/obj/effect/mob_spawn/corpse/human/russian,/obj/item/knife/kitchen,/obj/item/paper/fluff/ruins/soviet_flagship/recruit_suspicion)
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "Pk" = (
 /obj/machinery/door/window/brigdoor/left/directional/north,
 /obj/structure/cable,
@@ -3318,7 +3755,7 @@
 /obj/effect/spawner/random/maintenance/two,
 /obj/effect/spawner/random/engineering/tool,
 /obj/effect/spawner/random/engineering/toolbox,
-/obj/effect/spawner/random/engineering/material,
+/obj/effect/spawner/random/engineering/material_cheap,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/hallway)
 "Ps" = (
@@ -3370,6 +3807,7 @@
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Qm" = (
 /mob/living/basic/trooper/russian/engineer,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "Qp" = (
@@ -3383,16 +3821,36 @@
 /obj/machinery/light/small/blacklight/directional/south,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/hallway)
+"Qu" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "Qv" = (
 /mob/living/basic/spider/giant/hunter/scrawny,
 /obj/structure/spider/stickyweb,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
+"Qx" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 4
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"QM" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/bridge)
 "QQ" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/item/reagent_containers/cup/glass/bottle/vodka,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "QR" = (
@@ -3403,6 +3861,7 @@
 "QS" = (
 /obj/structure/closet/emcloset/anchored,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "QU" = (
@@ -3447,6 +3906,7 @@
 /area/shuttle/ruin/soviet_flagship/security)
 "Rw" = (
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "Ry" = (
@@ -3475,16 +3935,33 @@
 /mob/living/basic/trooper/russian/ranged/soldier,
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/security)
+"RN" = (
+/obj/machinery/light/small/directional/west,
+/turf/open/floor/plating,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "RP" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 9
 	},
 /obj/structure/window/spawner/directional/east,
 /obj/machinery/stasis,
-/obj/item/bedsheet/red,
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/crew)
+"Sb" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/button/door/directional/north{
+	id = "soviet_flagship_turbine_fire_cover_one"
+	},
+/turf/open/floor/catwalk_floor,
+/area/shuttle/ruin/soviet_flagship/engineering)
+"Sc" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/light/small/directional/north,
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/hallway)
 "Sf" = (
 /turf/closed/wall/r_wall/rust,
 /area/shuttle/ruin/soviet_flagship/boarding_bay)
@@ -3508,6 +3985,19 @@
 /obj/structure/closet/crate/secure/loot,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/storage)
+"SG" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/door/airlock/multi_tile/public/glass{
+	name = "Mess Hall"
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"SH" = (
+/obj/machinery/button/door/directional/south{
+	id = "soviet_flagship_turbine_fire_cover_one"
+	},
+/turf/open/floor/iron,
+/area/shuttle/ruin/soviet_flagship/engineering)
 "SK" = (
 /turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/bar)
@@ -3520,6 +4010,8 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/wood/parquet,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "ST" = (
@@ -3560,20 +4052,24 @@
 /area/shuttle/ruin/soviet_flagship/bridge)
 "Tr" = (
 /obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "Ts" = (
 /obj/machinery/light/small/directional/south,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/duct,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor/iron_dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Tu" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 1
+/obj/effect/turf_decal/stripes/end,
+/obj/machinery/atmospherics/components/binary/valve{
+	name = "plasma loading valve"
 	},
-/obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/turf/open/floor/plating/reinforced/airless,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Tw" = (
 /obj/effect/decal/cleanable/dirt,
@@ -3581,10 +4077,28 @@
 /obj/structure/fluff/shower_drain,
 /turf/open/floor/noslip,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"Tx" = (
+/obj/machinery/light/small/directional/south,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "TB" = (
 /obj/effect/spawner/structure/window/reinforced,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/bar)
+"TF" = (
+/obj/machinery/airalarm/directional/south,
+/obj/effect/mapping_helpers/airalarm/all_access,
+/obj/effect/mapping_helpers/airalarm/unlocked,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"TY" = (
+/obj/structure/spider/stickyweb,
+/obj/machinery/shieldgen,
+/obj/structure/closet/crate/large,
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/storage)
 "Ua" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/door/poddoor{
@@ -3602,6 +4116,26 @@
 	},
 /turf/open/floor/iron/smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
+"Ul" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
+/turf/open/floor/carpet/red,
+/area/shuttle/ruin/soviet_flagship/command_wing)
+"Up" = (
+/obj/structure/chair{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Us" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/chair{
+	dir = 8
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "Uy" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/mapping_helpers/broken_floor,
@@ -3626,7 +4160,7 @@
 /obj/structure/spider/stickyweb,
 /obj/effect/mapping_helpers/airlock/welded,
 /obj/effect/mapping_helpers/airlock_note_placer{
-	note_info = "Spiders. Don't open the door, Ivan."
+	note_info = "Spiders. Don't open the door, Petrov."
 	},
 /obj/structure/cable,
 /obj/structure/barricade/wooden/crude,
@@ -3647,6 +4181,7 @@
 	dir = 4
 	},
 /obj/structure/cable,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/catwalk_floor/iron_smooth,
 /area/shuttle/ruin/soviet_flagship/munitions)
 "UT" = (
@@ -3681,6 +4216,9 @@
 "Vr" = (
 /obj/structure/table/reinforced,
 /obj/effect/decal/cleanable/dirt,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Vu" = (
@@ -3711,6 +4249,10 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/item/reagent_containers/cup/glass/bottle/vodka/badminka,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
 /turf/open/floor/wood/tile,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "VE" = (
@@ -3755,6 +4297,10 @@
 /obj/item/clothing/under/syndicate/rus_army,
 /obj/item/clothing/head/costume/ushanka/polar,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/obj/machinery/airalarm/directional/east,
 /turf/open/floor/wood/parquet,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Wn" = (
@@ -3763,6 +4309,9 @@
 	},
 /mob/living/basic/trooper/russian/engineer,
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/command_wing)
 "Wp" = (
@@ -3785,6 +4334,7 @@
 "WA" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/duct,
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
 "WE" = (
@@ -3811,6 +4361,13 @@
 "WV" = (
 /turf/closed/wall/r_wall/rust,
 /area/shuttle/ruin/soviet_flagship/engineering)
+"WX" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/obj/effect/mapping_helpers/apc/unlocked,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "Xc" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/white/smooth_half,
@@ -3826,6 +4383,11 @@
 /obj/structure/table,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/showroomfloor,
+/area/shuttle/ruin/soviet_flagship/bar)
+"Xk" = (
+/obj/machinery/light/small/directional/east,
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/wood,
 /area/shuttle/ruin/soviet_flagship/bar)
 "Xp" = (
 /obj/machinery/light/small/directional/north,
@@ -3869,10 +4431,17 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/shuttle/ruin/soviet_flagship/munitions)
+"XH" = (
+/obj/effect/decal/cleanable/dirt,
+/mob/living/basic/trooper/russian/ranged/soldier,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "XK" = (
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
+/obj/machinery/light/small/directional/north,
+/obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron/cafeteria,
 /area/shuttle/ruin/soviet_flagship/bar)
 "XQ" = (
@@ -3941,6 +4510,7 @@
 /area/shuttle/ruin/soviet_flagship/engineering)
 "YC" = (
 /obj/machinery/duct,
+/obj/structure/cable,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
 "YG" = (
@@ -3949,13 +4519,17 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/carpet/red,
 /area/shuttle/ruin/soviet_flagship/bridge)
+"YK" = (
+/obj/effect/decal/cleanable/dirt,
+/turf/open/floor/iron/smooth,
+/area/shuttle/ruin/soviet_flagship/munitions)
 "YO" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
+/obj/structure/window/reinforced/spawner/directional/east,
+/obj/machinery/power/shuttle_engine/heater{
+	dir = 8
 	},
-/obj/machinery/portable_atmospherics/canister/plasma,
-/obj/effect/turf_decal/delivery/red,
-/turf/open/floor/plating,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
+/turf/open/floor/plating/airless,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Zh" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -3966,13 +4540,13 @@
 	},
 /area/shuttle/ruin/soviet_flagship/infirmary)
 "Zq" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 1
-	},
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/effect/turf_decal/delivery/white,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/effect/spawner/random/engineering/atmospherics_portable,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/light/small/directional/east,
+/turf/open/floor/iron,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "Zr" = (
 /obj/effect/turf_decal/stripes/line{
@@ -4001,11 +4575,12 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/ruin/soviet_flagship/docking_port)
 "ZE" = (
-/obj/machinery/atmospherics/components/unary/portables_connector/visible{
-	dir = 8
-	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/orange/visible,
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/plating,
+/obj/machinery/door/poddoor/shutters{
+	id = "soviet_flagship_turbine_fire_cover_two"
+	},
+/turf/open/floor/catwalk_floor,
 /area/shuttle/ruin/soviet_flagship/engineering)
 "ZG" = (
 /obj/effect/decal/cleanable/dirt,
@@ -4013,6 +4588,13 @@
 /obj/structure/spider/stickyweb,
 /turf/open/floor/iron/smooth_large,
 /area/shuttle/ruin/soviet_flagship/security)
+"ZQ" = (
+/obj/structure/cable,
+/obj/structure/table/reinforced,
+/obj/effect/decal/cleanable/dirt,
+/obj/item/reagent_containers/cup/glass/bottle/vodka,
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 "ZT" = (
 /obj/machinery/light/small/directional/south,
 /obj/machinery/duct,
@@ -4031,6 +4613,14 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/catwalk_floor/iron,
 /area/shuttle/ruin/soviet_flagship/hallway)
+"ZZ" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/table/reinforced,
+/obj/item/reagent_containers/cup/glass/bottle/vodka{
+	pixel_y = 12
+	},
+/turf/open/floor/iron/cafeteria,
+/area/shuttle/ruin/soviet_flagship/bar)
 
 (1,1,1) = {"
 tV
@@ -4113,7 +4703,7 @@ co
 Pk
 jf
 uQ
-zb
+GS
 Mi
 WV
 xd
@@ -4138,23 +4728,23 @@ xd
 xd
 WV
 GB
-ta
-hB
-co
-hB
+SH
+iN
+Sb
+Zq
 vQ
 JT
 Oh
-hB
-hB
-ct
-zb
+Dl
+ig
+Rd
+oe
 il
 WV
-xd
-xd
-WV
-tV
+YO
+YO
+Ov
+fc
 tV
 tV
 tV
@@ -4179,11 +4769,11 @@ ug
 WV
 WV
 sq
-sq
+ZE
 JH
 il
 rk
-JX
+zS
 JX
 WV
 tV
@@ -4201,7 +4791,7 @@ EQ
 Ys
 nc
 LK
-zJ
+bf
 WV
 WV
 WV
@@ -4212,11 +4802,11 @@ fV
 WV
 zi
 Rd
-JH
+KB
 il
-Zq
+rk
 zS
-zS
+Gt
 WV
 tV
 tV
@@ -4246,11 +4836,11 @@ HF
 Rd
 gW
 yc
-fc
+JA
+df
 zS
-Dl
-WV
-yq
+Ov
+Tu
 tV
 tV
 tV
@@ -4278,8 +4868,8 @@ Rd
 Rd
 sq
 or
-YO
-HJ
+JA
+zS
 HJ
 WV
 WV
@@ -4312,8 +4902,8 @@ sq
 lI
 Pz
 EM
-ig
-Tu
+ET
+ET
 Ry
 tV
 tV
@@ -4344,7 +4934,7 @@ hB
 ui
 JA
 bv
-ZE
+ET
 Fk
 Ry
 tV
@@ -4408,7 +4998,7 @@ Fp
 Sf
 tj
 AN
-AN
+lO
 do
 Sf
 xU
@@ -4462,9 +5052,9 @@ wi
 qg
 pS
 NG
-OD
+Qu
 Dr
-Yn
+Pf
 Sf
 oT
 mD
@@ -4560,7 +5150,7 @@ Bc
 WV
 Gs
 XS
-iR
+hq
 Sf
 rH
 AN
@@ -4590,7 +5180,7 @@ Lg
 Nc
 yr
 WV
-iR
+At
 XS
 iR
 Sf
@@ -4599,7 +5189,7 @@ AN
 Fp
 Sf
 AN
-AN
+th
 AN
 yI
 Sf
@@ -4654,7 +5244,7 @@ bA
 bA
 DX
 DX
-Gs
+cs
 XS
 iR
 Rm
@@ -4752,11 +5342,11 @@ Ss
 cS
 Aa
 XS
-iR
+hq
 ZA
 LG
 qP
-qP
+Ul
 ZA
 ZA
 wH
@@ -4764,7 +5354,7 @@ mp
 OX
 cp
 UK
-tV
+yq
 tV
 tV
 "}
@@ -4820,7 +5410,7 @@ iR
 ZA
 QS
 Fm
-ok
+qM
 ZA
 PH
 gb
@@ -4846,12 +5436,12 @@ jj
 oJ
 oJ
 NC
-iR
+Cc
 XS
 iR
 ZA
 sI
-ok
+yV
 zh
 ZA
 QQ
@@ -4883,7 +5473,7 @@ XS
 iR
 ZA
 bK
-ok
+yV
 Vr
 ZA
 Je
@@ -4891,7 +5481,7 @@ cf
 xv
 ZA
 aj
-cp
+xG
 UK
 tV
 tV
@@ -4944,10 +5534,10 @@ xH
 mP
 iR
 XS
-OD
+jc
 ZA
 fB
-ok
+yV
 VB
 jB
 pM
@@ -4982,10 +5572,10 @@ qv
 vc
 vc
 vc
-ne
+cR
 wC
-ST
-ST
+QM
+dH
 YG
 To
 cZ
@@ -5016,8 +5606,8 @@ NA
 FB
 ne
 Tp
-ST
-ST
+tF
+as
 Vu
 cZ
 cZ
@@ -5038,7 +5628,7 @@ mP
 mP
 mP
 mP
-iR
+Cc
 XS
 XQ
 SY
@@ -5078,7 +5668,7 @@ Ps
 iy
 by
 jp
-vc
+tQ
 Tp
 cD
 sb
@@ -5136,11 +5726,11 @@ Hp
 Hp
 iR
 XS
-iR
+hq
 ZA
 gY
 Gb
-ok
+DD
 ok
 OK
 Tp
@@ -5230,7 +5820,7 @@ OQ
 AV
 js
 Hp
-vA
+Sc
 ZW
 iR
 It
@@ -5360,7 +5950,7 @@ jx
 EZ
 iR
 XS
-iR
+hq
 pf
 Fa
 Fa
@@ -5414,13 +6004,13 @@ ZV
 aR
 Xi
 bS
-pX
+HY
 FH
 Gy
-QU
-QU
-QU
-QU
+Nq
+MQ
+Qx
+Cd
 qo
 iR
 XS
@@ -5428,7 +6018,7 @@ iR
 pf
 CU
 RG
-ch
+kt
 pf
 pf
 pf
@@ -5444,17 +6034,17 @@ tV
 hN
 ex
 PN
-tl
+cj
 nG
 pX
 pp
 Gy
-QU
-QU
-QU
-QU
+JN
+mG
+ZZ
+cA
 qo
-iR
+Cc
 XS
 cL
 ec
@@ -5481,10 +6071,10 @@ ux
 SK
 Pu
 Gy
-QU
-QU
-QU
-QU
+eB
+eB
+Us
+Cd
 TB
 iR
 st
@@ -5515,9 +6105,9 @@ Pu
 Gy
 QU
 QU
-QU
-QU
-QU
+Cd
+Cd
+SG
 iR
 YC
 OD
@@ -5543,16 +6133,16 @@ hN
 hN
 Bf
 SK
-Pu
-Gy
-QU
-QU
-QU
-QU
-QU
-cA
+uY
+qY
+Oc
+Oc
+Oc
+we
+we
+ss
 WA
-OD
+jc
 pf
 pf
 pf
@@ -5574,13 +6164,13 @@ tV
 tV
 hN
 hN
-SK
-Pu
-Gy
-QU
+Xk
+uY
+qY
+yb
 sj
-QU
-QU
+Nq
+Cd
 TB
 iR
 nd
@@ -5590,7 +6180,7 @@ hl
 km
 Mr
 WI
-WI
+uo
 WI
 gA
 LN
@@ -5609,10 +6199,10 @@ hN
 hN
 yS
 XK
-QU
-QU
-QU
-QU
+ZQ
+JN
+JN
+TF
 yS
 iR
 Ca
@@ -5640,13 +6230,13 @@ tV
 tV
 ZV
 ZV
-QU
-QU
-QU
-QU
-QU
+WX
+ft
+Cb
+eB
+Tx
 yS
-iR
+Cc
 ss
 OD
 sQ
@@ -5654,7 +6244,7 @@ CG
 Qt
 Mr
 WI
-WI
+cU
 dN
 yw
 yw
@@ -5672,9 +6262,9 @@ tV
 tV
 tV
 ZV
+Cd
 QU
-QU
-QU
+Dj
 QU
 QU
 yS
@@ -5707,7 +6297,7 @@ ZV
 ZV
 yS
 qo
-QU
+eb
 qo
 qo
 sg
@@ -5718,11 +6308,11 @@ NJ
 Pr
 Mr
 IQ
-WI
+uo
 Uf
 fL
 LN
-Qp
+oG
 id
 bM
 tV
@@ -5738,13 +6328,13 @@ tV
 ln
 ZV
 QU
-QU
-QU
-QU
+IS
+Cd
+Cd
 yS
 OD
 ss
-iR
+hq
 sQ
 sQ
 Mr
@@ -5770,24 +6360,24 @@ tV
 tV
 wV
 QU
-Nq
-QU
-QU
+Up
+Cd
+cA
 yS
 OD
 Ih
 iR
-iR
+kI
 iR
 nC
 WI
 WI
 WI
 WE
-WE
-WI
-WI
-Tr
+pB
+YK
+YK
+Bx
 Mr
 tV
 tV
@@ -5802,9 +6392,9 @@ tV
 tV
 wV
 wV
-FP
-QU
-QU
+JN
+Cd
+Cd
 qo
 oP
 Ih
@@ -5815,9 +6405,9 @@ gV
 WE
 WE
 WE
-WE
-WI
-WI
+pB
+YK
+YK
 Qm
 tB
 Ag
@@ -5835,20 +6425,20 @@ tV
 tV
 wV
 eB
-QU
-QU
+XH
+Cg
 qo
 OD
-OD
+Jb
 Ih
 IF
 iR
 Mr
 Az
-yw
+OU
 UO
-yw
-yw
+OU
+OU
 Bp
 sZ
 Tr
@@ -5867,8 +6457,8 @@ tV
 tV
 wV
 wV
-JN
-pE
+FP
+ql
 zA
 zA
 CE
@@ -5914,7 +6504,7 @@ wS
 Ds
 Ds
 rj
-cG
+RN
 dq
 Mr
 tV
@@ -5932,14 +6522,14 @@ tV
 tV
 wV
 wV
-Nq
+QU
 zA
 fz
 hS
 IO
 XX
 bM
-Xx
+OS
 Zt
 uh
 mE
@@ -5964,7 +6554,7 @@ tV
 tV
 tV
 wV
-JN
+dK
 CE
 aE
 zQ
@@ -6043,7 +6633,7 @@ vf
 wM
 Au
 cG
-mX
+oX
 Mr
 tV
 tV
@@ -6095,7 +6685,7 @@ tV
 tV
 li
 li
-HR
+TY
 hS
 HE
 bM
@@ -6131,7 +6721,7 @@ pH
 HR
 lA
 bM
-ef
+Oe
 Zt
 mE
 Ia

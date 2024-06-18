@@ -30,4 +30,4 @@
 /datum/map_template/shuttle/ruin/soviet_flagship
 	suffix = "soviet_flagship"
 	name = "PWS Khranitel Revolyutsii"
-	description = "The former flagship of the Third Soviet Union, now run by a bunch of kosmogopniks with no true cause and copious amounts of vodka. Full of hostile mobs, slow as shit, but armed pretty well."
+	description = "A ship bearing the name of the former flagship of the Third Soviet Union. The truth of its name is unknown. Full of ruskis, with a few functioning defence turrets and a large amount of broken ones. Lots of Sakhnos."

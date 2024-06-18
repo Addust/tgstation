@@ -512,6 +512,6 @@
 	id = "sovietdrydock"
 	suffix = "sovietdrydock.dmm"
 	name = "Space-Ruin - Soviet Drydock"
-	description = "We've recieved reports that the PWS Khranitel Revolyutsii has been sighted in the area, seemingly hiding near an abandoned Soviet fleetyard. Requesting a scout force to investigate."
+	description = "The Third Soviet Union had a peculiar way of assembling spacecraft, where the hull was assembled in space but parts of it, such as engine blocks, were assembled indoors. This usually saved lots of space, and let small facilities support vessels much larger than themselves. This one appears to be being salvaged by... the PWS Khranitel Revolyutsii?"
 	cost = 2 //russian economy come to you, also a big lad and might remind other c*ders to actually set costs
 

@@ -34,7 +34,7 @@
 
 /mob/living/basic/trooper/russian/ranged/Initialize(mapload)
 	. = ..()
-	AddComponent(/datum/component/ranged_attacks, casing_type = casingtype, projectile_sound = projectilesound, cooldown_time = 1 SECONDS)
+	AddComponent(/datum/component/ranged_attacks, casing_type = casingtype, projectile_sound = projectilesound, cooldown_time = 3 SECONDS) //one second? ridiculous
 
 /mob/living/basic/trooper/russian/ranged/lootless
 	loot = list(/obj/effect/mob_spawn/corpse/human/russian/ranged) //let them have the drip, the gun is the loot no?
@@ -47,6 +47,8 @@
 		/obj/effect/mob_spawn/corpse/human/russian/ranged/officer,
 		/obj/item/gun/ballistic/revolver/nagant
 	)
+	maxHealth = 150
+	health = 150
 
 /mob/living/basic/trooper/russian/ranged/soldier
 	name = "Russian Soldier"
@@ -59,6 +61,8 @@
 	r_hand = /obj/item/gun/ballistic/rifle/boltaction/surplus
 	casingtype = /obj/item/ammo_casing/strilka310/surplus
 	projectilesound = 'sound/weapons/gun/rifle/shot_heavy.ogg'
+	maxHealth = 135
+	health = 135
 
 /mob/living/basic/trooper/russian/engineer
 	name = "Russian Engineer"
@@ -79,7 +83,9 @@
 	desc = "A senior soldier of the residual Third Soviet Union, still clutching their rifle."
 	r_hand = /obj/item/gun/ballistic/rifle/boltaction
 	mob_spawner = /obj/effect/mob_spawn/corpse/human/russian/ranged/trooper/lieutenant
-		loot = list(
-		/obj/effect/mob_spawn/corpse/human/russian/ranged/trooper/lieuteannt,
+	loot = list(
+		/obj/effect/mob_spawn/corpse/human/russian/ranged/trooper/lieutenant,
 		/obj/item/gun/ballistic/rifle/boltaction //ONLY KOMISSAR CAN AFFORD NOT SHIT GUN
 	)
+	maxHealth = 150
+	health = 150

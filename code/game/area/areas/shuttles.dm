@@ -300,7 +300,7 @@
 	ambience_index = AMBIENCE_DANGER
 
 /area/shuttle/ruin/soviet_flagship/bar
-	name = "PWS Khranitel Revolyutsii Bar"
+	name = "PWS Khranitel Revolyutsii Mess Hall"
 	ambience_index = AMBIENCE_GENERIC
 
 // ----------- Arena Shuttle
