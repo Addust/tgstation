@@ -105,8 +105,8 @@
 /obj/effect/mob_spawn/ghost_role/human/syndicate/battlecruiser
 	name = "Syndicate Battlecruiser Ship Operative"
 	you_are_text = "You are a crewmember aboard the syndicate flagship: the SBC Starfury."
-	flavour_text = "Your job is to follow your captain's orders, maintain the ship, and keep the power flowing."
-	important_text = "The armory is not a candy store, and your role is not to assault the station directly, leave that work to the assault operatives."
+	flavour_text = "You follow the Captain's orders, defend the ship, repair damaged shuttles, and keep the power operational."
+	important_text = "Your job is not to attack the station. You maintain the Starfury, and protect it with what little weapons are left once the field operatives have finished ransacking the armoury."
 	prompt_name = "a battlecruiser crewmember"
 	outfit = /datum/outfit/syndicate_empty/battlecruiser
 	spawner_job_path = /datum/job/battlecruiser_crew
@@ -121,7 +121,10 @@
 	if(!(user.ckey in antag_team.players_spawned))
 		return TRUE
 	if(!silent)
-		to_chat(user, span_boldwarning("You have already used up your chance to roll as Battlecruiser."))
+		if prob(1)
+			to_chat(user, span_boldwarning("You have a skill issue.")) //lmao
+		else
+			to_chat(user, span_boldwarning("You've already died as part of the battlecruiser crew!"))
 	return FALSE
 
 /obj/effect/mob_spawn/ghost_role/human/syndicate/battlecruiser/special(mob/living/spawned_mob, mob/possesser)
@@ -137,13 +140,14 @@
 	belt = /obj/item/storage/belt/military/assault
 	l_pocket = /obj/item/gun/ballistic/automatic/pistol/clandestine
 	r_pocket = /obj/item/knife/combat/survival
+	r_hand = /obj/item/storage/toolbox/emergency/turret/nukie //the assault guys are not going to spare money to give Mr Engineer Man a turret
 
 	box = /obj/item/storage/box/survival/syndie
 
 /obj/effect/mob_spawn/ghost_role/human/syndicate/battlecruiser/assault
 	name = "Syndicate Battlecruiser Assault Operative"
 	you_are_text = "You are an assault operative aboard the syndicate flagship: the SBC Starfury."
-	flavour_text = "Your job is to follow your captain's orders, keep intruders out of the ship, and assault Space Station 13. There is an armory, multiple assault ships, and beam cannons to attack the station with."
+	flavour_text = "You are part of the boarding team assigned to board Space Station 13 and detonate its onboard nuclear self-destruct. The Syndicate has provided the Starfury with 3 fighters and a corvette, as well as an armoury."
 	important_text = "Work as a team with your fellow operatives and work out a plan of attack. If you are overwhelmed, escape back to your ship!"
 	prompt_name = "a battlecruiser operative"
 	outfit = /datum/outfit/syndicate_empty/battlecruiser/assault
@@ -159,12 +163,13 @@
 	mask = /obj/item/clothing/mask/gas/syndicate
 	l_pocket = /obj/item/uplink/nuclear
 	r_pocket = /obj/item/modular_computer/pda/nukeops
+	r_hand = null
 
 /obj/effect/mob_spawn/ghost_role/human/syndicate/battlecruiser/captain
 	name = "Syndicate Battlecruiser Captain"
-	you_are_text = "You are the captain aboard the syndicate flagship: the SBC Starfury."
-	flavour_text = "Your job is to oversee your crew, defend the ship, and destroy Space Station 13. The ship has an armory, multiple ships, beam cannons, and multiple crewmembers to accomplish this goal."
-	important_text = "As the captain, this whole operation falls on your shoulders. Help your assault operatives detonate a nuke on the station."
+	you_are_text = "You are the captain of the syndicate flagship: the SBC Starfury."
+	flavour_text = "Your job is to oversee your crew, defend the ship, and destroy Space Station 13. The ship is armed to the teeth with 3 assault fighters, a corvette, and a full-to-the-brim armoury."
+	important_text = "As the captain, this whole operation is your responsibility. Coordinate your crew, and fight alongside them if you must."
 	prompt_name = "a battlecruiser captain"
 	outfit = /datum/outfit/syndicate_empty/battlecruiser/assault/captain
 	spawner_job_path = /datum/job/battlecruiser_captain
@@ -184,3 +189,4 @@
 	mask = /obj/item/clothing/mask/cigarette/cigar/havana
 	l_pocket = /obj/item/melee/energy/sword/saber/red
 	r_pocket = /obj/item/melee/baton/telescopic
+	r_hand = null

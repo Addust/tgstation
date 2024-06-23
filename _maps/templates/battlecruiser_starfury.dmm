@@ -1578,6 +1578,7 @@
 /obj/effect/turf_decal/stripes/red/line{
 	dir = 1
 	},
+/obj/item/storage/toolbox/syndicate,
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/sbc_starfury)
 "fn" = (
@@ -5725,9 +5726,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/shuttle/sbc_starfury)
-"ZF" = (
-/turf/closed/wall/mineral/plastitanium/nosmooth,
-/area/shuttle/sbc_starfury)
 "ZK" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -5908,7 +5906,7 @@ cH
 ow
 ae
 ae
-ZF
+ae
 aa
 aa
 aa
@@ -6044,7 +6042,7 @@ cH
 Zl
 ae
 ae
-ZF
+ae
 aa
 aa
 aa
@@ -7948,7 +7946,7 @@ cH
 vC
 ae
 ae
-ZF
+ae
 aa
 aa
 aa
@@ -8084,7 +8082,7 @@ cH
 xI
 ae
 ae
-ZF
+ae
 aa
 aa
 aa

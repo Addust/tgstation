@@ -85,6 +85,8 @@
 	new/obj/structure/fluff/empty_sleeper/syndicate(get_turf(src))
 	return ..()
 
+//Syndicate base spawner of some sort? Unsure
+
 /obj/effect/mob_spawn/ghost_role/human/syndicate
 	name = "Syndicate Operative"
 	icon = 'icons/obj/machines/sleeper.dmi'
